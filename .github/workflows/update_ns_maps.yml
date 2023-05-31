@@ -1,7 +1,7 @@
 name: Update fire maps
-on:  
-  schedule:
-    - cron: 0 8 * * *
+on:
+  push:
+    branches: main
 jobs:
   update_map:
     runs-on: ubuntu-20.04
@@ -23,4 +23,4 @@ jobs:
       - name: Chart update and publish
         env: 
             DW_AUTH_TOKEN: ${{ secrets.DW_AUTH_TOKEN }}
-        run: python3 south-traffic.py
+        run: python3 ns-fire-maps.py
