@@ -1,7 +1,6 @@
 library(sf) # simple features packages for handling vector GIS data
 library(httr) # generic webservice package
 library(tidyverse) # a suite of packages for data wrangling, transformation, plotting
-install.packages("ows4R")
 library(ows4R) # interface for OGC web services
 library(rmapshaper) # simplify shapefiles
 library(lubridate) # deal with dates
