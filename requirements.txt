@@ -1,0 +1,4 @@
+datawrappergraphics==0.3.38
+geopandas==0.13.0
+pandas==2.0.2
+pytz==2023.3
