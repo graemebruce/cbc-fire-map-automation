@@ -1,0 +1,600 @@
+[
+    {
+        "anchor": "top-center",
+        "class": "",
+        "connectorLine": {
+            "arrowHead": "lines",
+            "enabled": false,
+            "lineLength": 0,
+            "stroke": 1,
+            "targetPadding": 3,
+            "type": "curveRight"
+        },
+        "coordinates": [
+            -63.7835323,
+            44.7385029
+        ],
+        "icon": {
+            "height": 700,
+            "horiz-adv-x": 1000,
+            "id": "circle-sm",
+            "path": "M1000 350a500 500 0 0 0-500-500 500 500 0 0 0-500 500 500 500 0 0 0 500 500 500 500 0 0 0 500-500z",
+            "scale": 0.42,
+            "width": 1000
+        },
+        "id": "m120",
+        "labelStyle": "plain",
+        "locked": false,
+        "markerColor": "#7f7f7f",
+        "markerSymbol": "",
+        "markerTextColor": "#333333",
+        "offsetX": 0,
+        "offsetY": 0,
+        "orgLatLng": [
+            -63.7835323,
+            44.7385029
+        ],
+        "preset": "0-secondary-city",
+        "rotate": 0,
+        "scale": 1,
+        "text": {
+            "bold": false,
+            "color": "#808080",
+            "fontSize": 14,
+            "halo": "#edebe9",
+            "italic": false,
+            "space": false,
+            "uppercase": false
+        },
+        "textPosition": null,
+        "title": "Hammonds Plains",
+        "tooltip": {
+            "enabled": false,
+            "text": ""
+        },
+        "type": "point",
+        "visibility": {
+            "desktop": true,
+            "mobile": true
+        },
+        "visible": true,
+        "wikidata": null
+    },
+    {
+        "anchor": "middle-left",
+        "class": "",
+        "connectorLine": {
+            "arrowHead": "lines",
+            "enabled": false,
+            "lineLength": 0,
+            "stroke": 1,
+            "targetPadding": 3,
+            "type": "curveRight"
+        },
+        "coordinates": [
+            -63.8957978,
+            44.6635863
+        ],
+        "icon": {
+            "height": 700,
+            "horiz-adv-x": 1000,
+            "id": "circle-sm",
+            "path": "M1000 350a500 500 0 0 0-500-500 500 500 0 0 0-500 500 500 500 0 0 0 500 500 500 500 0 0 0 500-500z",
+            "scale": 0.42,
+            "width": 1000
+        },
+        "id": "m119",
+        "labelStyle": "plain",
+        "locked": false,
+        "markerColor": "#7f7f7f",
+        "markerSymbol": "",
+        "markerTextColor": "#333333",
+        "offsetX": -9,
+        "offsetY": -1,
+        "orgLatLng": [
+            -63.8957978,
+            44.6635863
+        ],
+        "preset": "0-secondary-city",
+        "rotate": 0,
+        "scale": 1,
+        "text": {
+            "bold": false,
+            "color": "#808080",
+            "fontSize": 14,
+            "halo": "#edebe9",
+            "italic": false,
+            "space": false,
+            "uppercase": false
+        },
+        "textPosition": null,
+        "title": "Tantallon",
+        "tooltip": {
+            "enabled": false,
+            "text": ""
+        },
+        "type": "point",
+        "visibility": {
+            "desktop": true,
+            "mobile": true
+        },
+        "visible": true,
+        "wikidata": null
+    },
+    {
+        "anchor": "middle-left",
+        "class": "",
+        "connectorLine": {
+            "arrowHead": "lines",
+            "enabled": false,
+            "lineLength": 0,
+            "stroke": 1,
+            "targetPadding": 3,
+            "type": "curveRight"
+        },
+        "coordinates": [
+            -63.7693001,
+            44.8287677
+        ],
+        "icon": {
+            "height": 700,
+            "horiz-adv-x": 1000,
+            "id": "circle-sm",
+            "path": "M1000 350a500 500 0 0 0-500-500 500 500 0 0 0-500 500 500 500 0 0 0 500 500 500 500 0 0 0 500-500z",
+            "scale": 0.42,
+            "width": 1000
+        },
+        "id": "m117",
+        "labelStyle": "plain",
+        "locked": false,
+        "markerColor": "#7f7f7f",
+        "markerSymbol": "",
+        "markerTextColor": "#333333",
+        "offsetX": -9,
+        "offsetY": -1,
+        "orgLatLng": [
+            -63.7693001,
+            44.8287677
+        ],
+        "preset": "0-secondary-city",
+        "rotate": 0,
+        "scale": 1,
+        "text": {
+            "bold": false,
+            "color": "#808080",
+            "fontSize": 14,
+            "halo": "#edebe9",
+            "italic": false,
+            "space": false,
+            "uppercase": false
+        },
+        "textPosition": null,
+        "title": "Upper Sackville",
+        "tooltip": {
+            "enabled": false,
+            "text": ""
+        },
+        "type": "point",
+        "visibility": {
+            "desktop": true,
+            "mobile": true
+        },
+        "visible": true,
+        "wikidata": null
+    },
+    {
+        "anchor": "middle-left",
+        "class": "",
+        "connectorLine": {
+            "arrowHead": "lines",
+            "enabled": false,
+            "lineLength": 0,
+            "stroke": 1,
+            "targetPadding": 3,
+            "type": "curveRight"
+        },
+        "coordinates": [
+            -63.6582365,
+            44.7303901
+        ],
+        "icon": {
+            "height": 700,
+            "horiz-adv-x": 1000,
+            "id": "circle-sm",
+            "path": "M1000 350a500 500 0 0 0-500-500 500 500 0 0 0-500 500 500 500 0 0 0 500 500 500 500 0 0 0 500-500z",
+            "scale": 0.42,
+            "width": 1000
+        },
+        "id": "m116",
+        "labelStyle": "plain",
+        "locked": false,
+        "markerColor": "#7f7f7f",
+        "markerSymbol": "",
+        "markerTextColor": "#333333",
+        "offsetX": -9,
+        "offsetY": -1,
+        "orgLatLng": [
+            -63.6582365,
+            44.7303901
+        ],
+        "preset": "0-secondary-city",
+        "rotate": 0,
+        "scale": 1,
+        "text": {
+            "bold": false,
+            "color": "#808080",
+            "fontSize": 14,
+            "halo": "#edebe9",
+            "italic": false,
+            "space": false,
+            "uppercase": false
+        },
+        "textPosition": null,
+        "title": "Bedford",
+        "tooltip": {
+            "enabled": false,
+            "text": ""
+        },
+        "type": "point",
+        "visibility": {
+            "desktop": true,
+            "mobile": true
+        },
+        "visible": true,
+        "wikidata": null
+    },
+    {
+        "anchor": "top-right",
+        "class": "",
+        "connectorLine": {
+            "arrowHead": "lines",
+            "enabled": false,
+            "lineLength": 0,
+            "stroke": 1,
+            "targetPadding": 3,
+            "type": "curveRight"
+        },
+        "coordinates": [
+            -60.194092,
+            46.137977
+        ],
+        "icon": {
+            "height": 700,
+            "horiz-adv-x": 1000,
+            "id": "circle-sm",
+            "path": "M1000 350a500 500 0 0 0-500-500 500 500 0 0 0-500 500 500 500 0 0 0 500 500 500 500 0 0 0 500-500z",
+            "scale": 0.42,
+            "width": 1000
+        },
+        "id": "m115",
+        "labelStyle": "plain",
+        "locked": false,
+        "markerColor": "#4c4c4c",
+        "markerSymbol": "",
+        "markerTextColor": "#333333",
+        "offsetX": 0,
+        "offsetY": 0,
+        "orgLatLng": [
+            -60.194092,
+            46.137977
+        ],
+        "preset": "2-major-city",
+        "rotate": 0,
+        "scale": 1,
+        "text": {
+            "bold": false,
+            "color": "#4c4c4c",
+            "fontSize": 14,
+            "halo": "#edebe9",
+            "italic": false,
+            "space": false,
+            "uppercase": false
+        },
+        "textPosition": null,
+        "title": "Sydney",
+        "tooltip": {
+            "enabled": false,
+            "text": ""
+        },
+        "type": "point",
+        "visibility": {
+            "desktop": true,
+            "mobile": true
+        },
+        "visible": true,
+        "wikidata": null
+    },
+    {
+        "anchor": "top-right",
+        "class": "",
+        "connectorLine": {
+            "arrowHead": "lines",
+            "enabled": false,
+            "lineLength": 0,
+            "stroke": 1,
+            "targetPadding": 3,
+            "type": "curveRight"
+        },
+        "coordinates": [
+            -66.6534707,
+            45.9478016
+        ],
+        "icon": {
+            "height": 700,
+            "horiz-adv-x": 1000,
+            "id": "circle-sm",
+            "path": "M1000 350a500 500 0 0 0-500-500 500 500 0 0 0-500 500 500 500 0 0 0 500 500 500 500 0 0 0 500-500z",
+            "scale": 0.42,
+            "width": 1000
+        },
+        "id": "m114",
+        "labelStyle": "plain",
+        "locked": false,
+        "markerColor": "#4c4c4c",
+        "markerSymbol": "",
+        "markerTextColor": "#333333",
+        "offsetX": 0,
+        "offsetY": 0,
+        "orgLatLng": [
+            -66.6534707,
+            45.9478016
+        ],
+        "preset": "2-major-city",
+        "rotate": 0,
+        "scale": 1,
+        "text": {
+            "bold": false,
+            "color": "#4c4c4c",
+            "fontSize": 14,
+            "halo": "#edebe9",
+            "italic": false,
+            "space": false,
+            "uppercase": false
+        },
+        "textPosition": null,
+        "title": "Fredericton",
+        "tooltip": {
+            "enabled": false,
+            "text": ""
+        },
+        "type": "point",
+        "visibility": {
+            "desktop": true,
+            "mobile": true
+        },
+        "visible": true,
+        "wikidata": null
+    },
+    {
+        "anchor": "top-right",
+        "class": "",
+        "connectorLine": {
+            "arrowHead": "lines",
+            "enabled": false,
+            "lineLength": 0,
+            "stroke": 1,
+            "targetPadding": 3,
+            "type": "curveRight"
+        },
+        "coordinates": [
+            -66.1157,
+            43.8372648
+        ],
+        "icon": {
+            "height": 700,
+            "horiz-adv-x": 1000,
+            "id": "circle-sm",
+            "path": "M1000 350a500 500 0 0 0-500-500 500 500 0 0 0-500 500 500 500 0 0 0 500 500 500 500 0 0 0 500-500z",
+            "scale": 0.42,
+            "width": 1000
+        },
+        "id": "m113",
+        "labelStyle": "plain",
+        "locked": false,
+        "markerColor": "#4c4c4c",
+        "markerSymbol": "",
+        "markerTextColor": "#333333",
+        "offsetX": 0,
+        "offsetY": 0,
+        "orgLatLng": [
+            -66.1157,
+            43.8372648
+        ],
+        "preset": "2-major-city",
+        "rotate": 0,
+        "scale": 1,
+        "text": {
+            "bold": false,
+            "color": "#4c4c4c",
+            "fontSize": 14,
+            "halo": "#edebe9",
+            "italic": false,
+            "space": false,
+            "uppercase": false
+        },
+        "textPosition": null,
+        "title": "Yarmouth",
+        "tooltip": {
+            "enabled": false,
+            "text": ""
+        },
+        "type": "point",
+        "visibility": {
+            "desktop": true,
+            "mobile": true
+        },
+        "visible": true,
+        "wikidata": null
+    },
+    {
+        "anchor": "top-right",
+        "class": "",
+        "connectorLine": {
+            "arrowHead": "lines",
+            "enabled": false,
+            "lineLength": 0,
+            "stroke": 1,
+            "targetPadding": 3,
+            "type": "curveRight"
+        },
+        "coordinates": [
+            -63.5859487,
+            44.648618
+        ],
+        "icon": {
+            "height": 700,
+            "horiz-adv-x": 1000,
+            "id": "circle-sm",
+            "path": "M1000 350a500 500 0 0 0-500-500 500 500 0 0 0-500 500 500 500 0 0 0 500 500 500 500 0 0 0 500-500z",
+            "scale": 0.42,
+            "width": 1000
+        },
+        "id": "m94",
+        "labelStyle": "plain",
+        "locked": false,
+        "markerColor": "#4c4c4c",
+        "markerSymbol": "",
+        "markerTextColor": "#333333",
+        "offsetX": -17,
+        "offsetY": -1,
+        "orgLatLng": [
+            -63.5859487,
+            44.648618
+        ],
+        "preset": "2-major-city",
+        "rotate": 0,
+        "scale": 1,
+        "text": {
+            "bold": false,
+            "color": "#4c4c4c",
+            "fontSize": 14,
+            "halo": "#edebe9",
+            "italic": false,
+            "space": false,
+            "uppercase": false
+        },
+        "textPosition": null,
+        "title": "Halifax",
+        "tooltip": {
+            "enabled": false,
+            "text": ""
+        },
+        "type": "point",
+        "visibility": {
+            "desktop": true,
+            "mobile": true
+        },
+        "visible": true,
+        "wikidata": null
+    },
+    {
+        "anchor": "middle-center",
+        "class": "",
+        "connectorLine": {
+            "arrowHead": "lines",
+            "enabled": false,
+            "lineLength": 0,
+            "stroke": 1,
+            "targetPadding": 3,
+            "type": "curveRight"
+        },
+        "coordinates": [
+            -66.4090245822207,
+            47.38726454424457
+        ],
+        "icon": {
+            "id": "none",
+            "path": "M0,0"
+        },
+        "id": "m95",
+        "labelStyle": "plain",
+        "locked": false,
+        "markerColor": "#333333",
+        "markerSymbol": "",
+        "markerTextColor": "#333333",
+        "offsetX": 0,
+        "offsetY": 0,
+        "preset": "4-province-region-name",
+        "rotate": 0,
+        "scale": 1,
+        "text": {
+            "bold": false,
+            "color": "#b3b3b3",
+            "fontSize": 15,
+            "halo": "#edebe9",
+            "italic": false,
+            "space": true,
+            "uppercase": true
+        },
+        "textPosition": null,
+        "title": "New \nBrunswick",
+        "tooltip": {
+            "enabled": false,
+            "text": ""
+        },
+        "type": "point",
+        "visibility": {
+            "desktop": true,
+            "mobile": true
+        },
+        "visible": true,
+        "wikidata": null
+    },
+    {
+        "anchor": "middle-center",
+        "class": "",
+        "connectorLine": {
+            "arrowHead": "lines",
+            "enabled": false,
+            "lineLength": 0,
+            "stroke": 1,
+            "targetPadding": 3,
+            "type": "curveRight"
+        },
+        "coordinates": [
+            -65.3089114294022,
+            44.26870882967228
+        ],
+        "icon": {
+            "id": "none",
+            "path": "M0,0"
+        },
+        "id": "m96",
+        "labelStyle": "plain",
+        "locked": false,
+        "markerColor": "#333333",
+        "markerSymbol": "",
+        "markerTextColor": "#333333",
+        "offsetX": 0,
+        "offsetY": 0,
+        "orgLatLng": [
+            -115.002136,
+            55.001251
+        ],
+        "preset": "4-province-region-name",
+        "rotate": 0,
+        "scale": 1,
+        "text": {
+            "bold": false,
+            "color": "#b3b3b3",
+            "fontSize": 15,
+            "halo": "#edebe9",
+            "italic": false,
+            "space": true,
+            "uppercase": true
+        },
+        "textPosition": null,
+        "title": "Nova\nScotia",
+        "tooltip": {
+            "enabled": false,
+            "text": ""
+        },
+        "type": "point",
+        "visibility": {
+            "desktop": true,
+            "mobile": true
+        },
+        "visible": true,
+        "wikidata": null
+    }
+]

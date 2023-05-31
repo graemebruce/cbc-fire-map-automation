@@ -1,0 +1,304 @@
+
+[
+    {
+        "anchor": "top-right",
+        "class": "",
+        "connectorLine": {
+            "arrowHead": "lines",
+            "enabled": false,
+            "lineLength": 0,
+            "stroke": 1,
+            "targetPadding": 3,
+            "type": "curveRight"
+        },
+        "coordinates": [
+            -63.300006,
+            45.366668
+        ],
+        "icon": {
+            "height": 700,
+            "horiz-adv-x": 1000,
+            "id": "circle-sm",
+            "path": "M1000 350a500 500 0 0 0-500-500 500 500 0 0 0-500 500 500 500 0 0 0 500 500 500 500 0 0 0 500-500z",
+            "scale": 0.42,
+            "width": 1000
+        },
+        "id": "m6",
+        "labelStyle": "plain",
+        "locked": false,
+        "markerColor": "#4c4c4c",
+        "markerSymbol": "",
+        "markerTextColor": "#333333",
+        "offsetX": 0,
+        "offsetY": 0,
+        "orgLatLng": [
+            -63.300006,
+            45.366668
+        ],
+        "preset": "2-major-city",
+        "rotate": 0,
+        "scale": 1,
+        "text": {
+            "bold": false,
+            "color": "#4c4c4c",
+            "fontSize": 14,
+            "halo": "#edebe9",
+            "italic": false,
+            "space": false,
+            "uppercase": false
+        },
+        "textPosition": null,
+        "title": "Truro",
+        "tooltip": {
+            "enabled": false,
+            "text": ""
+        },
+        "type": "point",
+        "visibility": {
+            "desktop": true,
+            "mobile": true
+        },
+        "visible": true,
+        "wikidata": null
+    },
+    {
+        "anchor": "middle-center",
+        "class": "",
+        "connectorLine": {
+            "arrowHead": "lines",
+            "enabled": false,
+            "lineLength": 0,
+            "stroke": 1,
+            "targetPadding": 3,
+            "type": "curveRight"
+        },
+        "coordinates": [
+            -62.84799921279114,
+            43.72997521027534
+        ],
+        "icon": {
+            "id": "none",
+            "path": "M0,0"
+        },
+        "id": "m5",
+        "labelStyle": "plain",
+        "locked": false,
+        "markerColor": "#333333",
+        "markerSymbol": "",
+        "markerTextColor": "#333333",
+        "offsetX": 0,
+        "offsetY": 0,
+        "orgLatLng": [
+            -38.320312,
+            13.581921
+        ],
+        "preset": "5-water",
+        "rotate": 0,
+        "scale": 1,
+        "text": {
+            "bold": false,
+            "color": "#355364",
+            "fontSize": 12,
+            "halo": "#a4c7d8",
+            "italic": true,
+            "space": false,
+            "uppercase": false
+        },
+        "textPosition": null,
+        "title": "Atlantic Ocean",
+        "tooltip": {
+            "enabled": false,
+            "text": ""
+        },
+        "type": "point",
+        "visibility": {
+            "desktop": true,
+            "mobile": true
+        },
+        "visible": true,
+        "wikidata": null
+    },
+    {
+        "anchor": "top-right",
+        "class": "",
+        "connectorLine": {
+            "arrowHead": "lines",
+            "enabled": false,
+            "lineLength": 0,
+            "stroke": 1,
+            "targetPadding": 3,
+            "type": "curveRight"
+        },
+        "coordinates": [
+            -52.7126162,
+            47.5614705
+        ],
+        "icon": {
+            "height": 700,
+            "horiz-adv-x": 1000,
+            "id": "circle-sm",
+            "path": "M1000 350a500 500 0 0 0-500-500 500 500 0 0 0-500 500 500 500 0 0 0 500 500 500 500 0 0 0 500-500z",
+            "scale": 0.42,
+            "width": 1000
+        },
+        "id": "m4",
+        "labelStyle": "plain",
+        "locked": false,
+        "markerColor": "#4c4c4c",
+        "markerSymbol": "",
+        "markerTextColor": "#333333",
+        "offsetX": 0,
+        "offsetY": 0,
+        "orgLatLng": [
+            -52.7126162,
+            47.5614705
+        ],
+        "preset": "2-major-city",
+        "rotate": 0,
+        "scale": 1,
+        "text": {
+            "bold": false,
+            "color": "#4c4c4c",
+            "fontSize": 14,
+            "halo": "#edebe9",
+            "italic": false,
+            "space": false,
+            "uppercase": false
+        },
+        "textPosition": null,
+        "title": "St. John's",
+        "tooltip": {
+            "enabled": false,
+            "text": ""
+        },
+        "type": "point",
+        "visibility": {
+            "desktop": true,
+            "mobile": true
+        },
+        "visible": true,
+        "wikidata": null
+    },
+    {
+        "anchor": "top-right",
+        "class": "",
+        "connectorLine": {
+            "arrowHead": "lines",
+            "enabled": false,
+            "lineLength": 0,
+            "stroke": 1,
+            "targetPadding": 3,
+            "type": "curveRight"
+        },
+        "coordinates": [
+            -66.6534707,
+            45.9478016
+        ],
+        "icon": {
+            "height": 700,
+            "horiz-adv-x": 1000,
+            "id": "circle-sm",
+            "path": "M1000 350a500 500 0 0 0-500-500 500 500 0 0 0-500 500 500 500 0 0 0 500 500 500 500 0 0 0 500-500z",
+            "scale": 0.42,
+            "width": 1000
+        },
+        "id": "m3",
+        "labelStyle": "plain",
+        "locked": false,
+        "markerColor": "#4c4c4c",
+        "markerSymbol": "",
+        "markerTextColor": "#333333",
+        "offsetX": -2,
+        "offsetY": -2,
+        "orgLatLng": [
+            -66.6534707,
+            45.9478016
+        ],
+        "preset": "2-major-city",
+        "rotate": 0,
+        "scale": 1,
+        "text": {
+            "bold": false,
+            "color": "#4c4c4c",
+            "fontSize": 14,
+            "halo": "#edebe9",
+            "italic": false,
+            "space": false,
+            "uppercase": false
+        },
+        "textPosition": null,
+        "title": "Fredericton",
+        "tooltip": {
+            "enabled": false,
+            "text": ""
+        },
+        "type": "point",
+        "visibility": {
+            "desktop": true,
+            "mobile": true
+        },
+        "visible": true,
+        "wikidata": null
+    },
+    {
+        "anchor": "bottom-left",
+        "class": "",
+        "connectorLine": {
+            "arrowHead": "lines",
+            "enabled": false,
+            "lineLength": 0,
+            "stroke": 1,
+            "targetPadding": 3,
+            "type": "curveRight"
+        },
+        "coordinates": [
+            -63.5859487,
+            44.648618
+        ],
+        "icon": {
+            "height": 700,
+            "horiz-adv-x": 1000,
+            "id": "circle-sm",
+            "path": "M1000 350a500 500 0 0 0-500-500 500 500 0 0 0-500 500 500 500 0 0 0 500 500 500 500 0 0 0 500-500z",
+            "scale": 0.42,
+            "width": 1000
+        },
+        "id": "m2",
+        "labelStyle": "plain",
+        "locked": false,
+        "markerColor": "#4c4c4c",
+        "markerSymbol": "",
+        "markerTextColor": "#333333",
+        "offsetX": 0,
+        "offsetY": 0,
+        "orgLatLng": [
+            -63.5859487,
+            44.648618
+        ],
+        "preset": "2-major-city",
+        "rotate": 0,
+        "scale": 1,
+        "text": {
+            "bold": false,
+            "color": "#4c4c4c",
+            "fontSize": 14,
+            "halo": "#edebe9",
+            "italic": false,
+            "space": false,
+            "uppercase": false
+        },
+        "textPosition": null,
+        "title": "Halifax",
+        "tooltip": {
+            "enabled": false,
+            "text": ""
+        },
+        "type": "point",
+        "visibility": {
+            "desktop": true,
+            "mobile": true
+        },
+        "visible": true,
+        "wikidata": null
+    }
+]

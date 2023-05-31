@@ -16,8 +16,8 @@ import datawrappergraphics as dw
 
 map_id_locs = "Dff0Y"  #id
 
-dataOC = geopandas.read_file("./assets/clean_map_data/locations/out_of_control_locations.geojson")
-dataBH = geopandas.read_file("./assets/clean_map_data/locations/being_held_locations.geojson")
+dataOC = geopandas.read_file("./clean_map_data/locations/ab/out_of_control_locations.geojson")
+dataBH = geopandas.read_file("./clean_map_data/locations/ab/being_held_locations.geojson")
 
 
 dataOC["type"] = "point"
@@ -34,8 +34,8 @@ data_locs = pd.concat([dataOC,dataBH])
 
 
 map = (dw.Map(map_id_locs)
-            .data(data_locs, append="./assets/Alta/markers/markers-temp.json")
-            .footer(source="Canadian Interagency Forest Fire Centre", byline = "(CBC)" )      
+            .data(data_locs, append="./markers/ab/markers-temp.json")
+            .footer(source="Natural Resources Canada", byline ="(CBC)", timestamp= True, tz="America/Edmonton" )      
             .publish()
             )
 
@@ -49,7 +49,7 @@ map_id_perims = "tpsTE"   #id
 
 
 
-data_perims = geopandas.read_file("./assets/clean_map_data/fire_perims/fire_perims_simple.geojson")
+data_perims = geopandas.read_file("./clean_map_data/fire_perims/fire_perims_simple.geojson")
 
 
 
@@ -59,10 +59,48 @@ data_perims["stroke-width"] = 1
 data_perims["fill"] = "#ff7f00"
 
 map = (dw.Map(map_id_perims)
-            .data(data_perims, append="./assets/Alta/markers/ab-boundaries.json")
-            .footer(source="Canadian Interagency Forest Fire Centre", byline = "(CBC)" )      
+            .data(data_perims, append="./markers/ab/ab-boundaries.json")
+            .footer(source="Natural Resources Canada", byline ="(CBC)", timestamp= True, tz="America/Edmonton" )      
             .publish()
             )
+
+
+###Smoke   
+
+
+map_id_smoke = "QV3Jh"   #id
+
+heavy = geopandas.read_file("./clean_map_data/smoke/heavy_smoke.geojson")
+
+heavy["fill"] = "#c42127"
+heavy["fill-opacity"] = 0.6
+heavy["stroke"] = False
+
+med = geopandas.read_file("./clean_map_data/smoke/medium_smoke.geojson")
+
+med["stroke"] = False
+med["fill-opacity"] = 0.4
+med["fill"] = "#ff7f00"
+
+
+light = geopandas.read_file("./clean_map_data/smoke/light_smoke.geojson")
+
+light["fill"] = "#f2d59d"
+light["stroke"] = False
+light["fill-opacity"] = 0.5
+
+data_smoke = pd.concat([heavy, med, light])
+
+
+
+
+map = (dw.Map(map_id_smoke)
+            .data(data_smoke, append="./markers/ab/smoke-markers.json")
+            .footer(source="NOOA", byline = "(CBC)", timestamp=False, note="As of yesterday")      
+            .publish()
+            )
+
+
 
 
 
@@ -70,13 +108,13 @@ map = (dw.Map(map_id_perims)
 
 map_id_danger = "pNxnP"  #id
 
-extreme = geopandas.read_file("./assets/clean_map_data/danger/extreme_danger_4_simple.geojson")
+extreme = geopandas.read_file("./clean_map_data/danger/extreme_danger_4_simple.geojson")
 
 extreme["fill"] = "#c42127"
 extreme["fill-opacity"] = 0.9
 extreme["stroke"] = False
 
-very_high = geopandas.read_file("./assets/clean_map_data/danger/very_high_danger_3_simple.geojson")
+very_high = geopandas.read_file("./clean_map_data/danger/very_high_danger_3_simple.geojson")
 
 very_high["stroke"] = False
 very_high["fill"] = "#ff7f00"
@@ -90,46 +128,10 @@ data_danger = pd.concat([extreme, very_high])
 
 
 map = (dw.Map(map_id_danger)
-            .data(data_danger, append="./assets/Alta/markers/fire-danger.json")
-            .footer(source="Canadian Interagency Forest Fire Centre", byline = "(CBC)" )      
+            .data(data_danger, append="./markers/ab/fire-danger.json")
+            .footer(source="Natural Resources Canada", byline ="(CBC)", timestamp= True, tz="America/Edmonton" )      
             .publish()
             )
 
-
-
-###Smoke   
-
-
-map_id_smoke = "QV3Jh"   #id
-
-heavy = geopandas.read_file("./assets/clean_map_data/smoke/heavy_smoke.geojson")
-
-heavy["fill"] = "#c42127"
-heavy["fill-opacity"] = 0.6
-heavy["stroke"] = False
-
-med = geopandas.read_file("./assets/clean_map_data/smoke/medium_smoke.geojson")
-
-med["stroke"] = False
-med["fill-opacity"] = 0.4
-med["fill"] = "#ff7f00"
-
-
-light = geopandas.read_file("./assets/clean_map_data/smoke/light_smoke.geojson")
-
-light["fill"] = "#f2d59d"
-light["stroke"] = False
-light["fill-opacity"] = 0.5
-
-data_smoke = pd.concat([heavy, med, light])
-
-
-
-
-map = (dw.Map(map_id_smoke)
-            .data(data_smoke, append="./assets/Alta/markers/smoke-markers.json")
-            .footer(source="NOOA", byline = "(CBC)", timestamp=False, note="As of yesterday")      
-            .publish()
-            )
 
 

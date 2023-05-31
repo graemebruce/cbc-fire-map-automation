@@ -1,0 +1,421 @@
+[
+    {
+        "anchor": "top-right",
+        "class": "",
+        "connectorLine": {
+            "arrowHead": "lines",
+            "enabled": false,
+            "lineLength": 0,
+            "stroke": 1,
+            "targetPadding": 3,
+            "type": "curveRight"
+        },
+        "coordinates": [
+            -97.1384584,
+            49.8955367
+        ],
+        "icon": {
+            "height": 700,
+            "horiz-adv-x": 1000,
+            "id": "circle-sm",
+            "path": "M1000 350a500 500 0 0 0-500-500 500 500 0 0 0-500 500 500 500 0 0 0 500 500 500 500 0 0 0 500-500z",
+            "scale": 0.42,
+            "width": 1000
+        },
+        "id": "m78",
+        "labelStyle": "plain",
+        "locked": false,
+        "markerColor": "#4c4c4c",
+        "markerSymbol": "",
+        "markerTextColor": "#333333",
+        "offsetX": 0,
+        "offsetY": 0,
+        "orgLatLng": [
+            -97.1384584,
+            49.8955367
+        ],
+        "preset": "2-major-city",
+        "rotate": 0,
+        "scale": 1,
+        "text": {
+            "bold": false,
+            "color": "#4c4c4c",
+            "fontSize": 14,
+            "halo": "#edebe9",
+            "italic": false,
+            "space": false,
+            "uppercase": false
+        },
+        "textPosition": null,
+        "title": "Winnipeg",
+        "tooltip": {
+            "enabled": false,
+            "text": ""
+        },
+        "type": "point",
+        "visibility": {
+            "desktop": true,
+            "mobile": true
+        },
+        "visible": true,
+        "wikidata": null
+    },
+    {
+        "anchor": "middle-left",
+        "class": "",
+        "connectorLine": {
+            "arrowHead": "lines",
+            "enabled": false,
+            "lineLength": 0,
+            "stroke": 1,
+            "targetPadding": 3,
+            "type": "curveRight"
+        },
+        "coordinates": [
+            -66.645813,
+            45.966425
+        ],
+        "icon": {
+            "height": 700,
+            "horiz-adv-x": 1000,
+            "id": "circle-sm",
+            "path": "M1000 350a500 500 0 0 0-500-500 500 500 0 0 0-500 500 500 500 0 0 0 500 500 500 500 0 0 0 500-500z",
+            "scale": 0.42,
+            "width": 1000
+        },
+        "id": "m70",
+        "labelStyle": "plain",
+        "locked": false,
+        "markerColor": "#4c4c4c",
+        "markerSymbol": "",
+        "markerTextColor": "#333333",
+        "offsetX": 0,
+        "offsetY": 0,
+        "orgLatLng": [
+            -66.645813,
+            45.966425
+        ],
+        "preset": "2-major-city",
+        "rotate": 0,
+        "scale": 1,
+        "text": {
+            "bold": false,
+            "color": "#4c4c4c",
+            "fontSize": 14,
+            "halo": "#edebe9",
+            "italic": false,
+            "space": false,
+            "uppercase": false
+        },
+        "textPosition": null,
+        "title": "Fredericton",
+        "tooltip": {
+            "enabled": false,
+            "text": ""
+        },
+        "type": "point",
+        "visibility": {
+            "desktop": false,
+            "mobile": true
+        },
+        "visible": true,
+        "wikidata": null
+    },
+    {
+        "anchor": "bottom-right",
+        "class": "",
+        "connectorLine": {
+            "arrowHead": "lines",
+            "enabled": false,
+            "lineLength": 0,
+            "stroke": 1,
+            "targetPadding": 3,
+            "type": "curveRight"
+        },
+        "coordinates": [
+            -63.5859487,
+            44.648618
+        ],
+        "icon": {
+            "height": 700,
+            "horiz-adv-x": 1000,
+            "id": "circle-sm",
+            "path": "M1000 350a500 500 0 0 0-500-500 500 500 0 0 0-500 500 500 500 0 0 0 500 500 500 500 0 0 0 500-500z",
+            "scale": 0.42,
+            "width": 1000
+        },
+        "id": "m71",
+        "labelStyle": "plain",
+        "locked": false,
+        "markerColor": "#4c4c4c",
+        "markerSymbol": "",
+        "markerTextColor": "#333333",
+        "offsetX": 0,
+        "offsetY": 0,
+        "orgLatLng": [
+            -63.5859487,
+            44.648618
+        ],
+        "preset": "2-major-city",
+        "rotate": 0,
+        "scale": 1,
+        "text": {
+            "bold": false,
+            "color": "#4c4c4c",
+            "fontSize": 14,
+            "halo": "#edebe9",
+            "italic": false,
+            "space": false,
+            "uppercase": false
+        },
+        "textPosition": null,
+        "title": "Halifax",
+        "tooltip": {
+            "enabled": false,
+            "text": ""
+        },
+        "type": "point",
+        "visibility": {
+            "desktop": true,
+            "mobile": true
+        },
+        "visible": true,
+        "wikidata": null
+    },
+    {
+        "anchor": "top-right",
+        "class": "",
+        "connectorLine": {
+            "arrowHead": "lines",
+            "enabled": false,
+            "lineLength": 0,
+            "stroke": 1,
+            "targetPadding": 3,
+            "type": "curveRight"
+        },
+        "coordinates": [
+            -123.113952,
+            49.2608724
+        ],
+        "icon": {
+            "height": 700,
+            "horiz-adv-x": 1000,
+            "id": "circle-sm",
+            "path": "M1000 350a500 500 0 0 0-500-500 500 500 0 0 0-500 500 500 500 0 0 0 500 500 500 500 0 0 0 500-500z",
+            "scale": 0.42,
+            "width": 1000
+        },
+        "id": "m72",
+        "labelStyle": "plain",
+        "locked": false,
+        "markerColor": "#4c4c4c",
+        "markerSymbol": "",
+        "markerTextColor": "#333333",
+        "offsetX": 0,
+        "offsetY": 0,
+        "orgLatLng": [
+            -123.113952,
+            49.2608724
+        ],
+        "preset": "2-major-city",
+        "rotate": 0,
+        "scale": 1,
+        "text": {
+            "bold": false,
+            "color": "#4c4c4c",
+            "fontSize": 14,
+            "halo": "#edebe9",
+            "italic": false,
+            "space": false,
+            "uppercase": false
+        },
+        "textPosition": null,
+        "title": "Vancouver",
+        "tooltip": {
+            "enabled": false,
+            "text": ""
+        },
+        "type": "point",
+        "visibility": {
+            "desktop": true,
+            "mobile": false
+        },
+        "visible": true,
+        "wikidata": null
+    },
+    {
+        "anchor": "top-right",
+        "class": "",
+        "connectorLine": {
+            "arrowHead": "lines",
+            "enabled": false,
+            "lineLength": 0,
+            "stroke": 1,
+            "targetPadding": 3,
+            "type": "curveRight"
+        },
+        "coordinates": [
+            -79.3839347,
+            43.6534817
+        ],
+        "icon": {
+            "height": 700,
+            "horiz-adv-x": 1000,
+            "id": "circle-sm",
+            "path": "M1000 350a500 500 0 0 0-500-500 500 500 0 0 0-500 500 500 500 0 0 0 500 500 500 500 0 0 0 500-500z",
+            "scale": 0.42,
+            "width": 1000
+        },
+        "id": "m73",
+        "labelStyle": "plain",
+        "locked": false,
+        "markerColor": "#4c4c4c",
+        "markerSymbol": "",
+        "markerTextColor": "#333333",
+        "offsetX": 0,
+        "offsetY": 0,
+        "orgLatLng": [
+            -79.3839347,
+            43.6534817
+        ],
+        "preset": "2-major-city",
+        "rotate": 0,
+        "scale": 1,
+        "text": {
+            "bold": false,
+            "color": "#4c4c4c",
+            "fontSize": 14,
+            "halo": "#edebe9",
+            "italic": false,
+            "space": false,
+            "uppercase": false
+        },
+        "textPosition": null,
+        "title": "Toronto",
+        "tooltip": {
+            "enabled": false,
+            "text": ""
+        },
+        "type": "point",
+        "visibility": {
+            "desktop": true,
+            "mobile": false
+        },
+        "visible": true,
+        "wikidata": null
+    },
+    {
+        "anchor": "middle-right",
+        "class": "",
+        "connectorLine": {
+            "arrowHead": "lines",
+            "enabled": false,
+            "lineLength": 0,
+            "stroke": 1,
+            "targetPadding": 3,
+            "type": "curveRight"
+        },
+        "coordinates": [
+            -113.491241,
+            53.5462055
+        ],
+        "icon": {
+            "height": 700,
+            "horiz-adv-x": 1000,
+            "id": "circle-sm",
+            "path": "M1000 350a500 500 0 0 0-500-500 500 500 0 0 0-500 500 500 500 0 0 0 500 500 500 500 0 0 0 500-500z",
+            "scale": 0.42,
+            "width": 1000
+        },
+        "id": "m74",
+        "labelStyle": "plain",
+        "locked": false,
+        "markerColor": "#4c4c4c",
+        "markerSymbol": "",
+        "markerTextColor": "#333333",
+        "offsetX": 3,
+        "offsetY": -8,
+        "orgLatLng": [
+            -113.491241,
+            53.5462055
+        ],
+        "preset": "2-major-city",
+        "rotate": 0,
+        "scale": 1,
+        "text": {
+            "bold": false,
+            "color": "#4c4c4c",
+            "fontSize": 14,
+            "halo": "#edebe9",
+            "italic": false,
+            "space": false,
+            "uppercase": false
+        },
+        "textPosition": null,
+        "title": "Edmonton",
+        "tooltip": {
+            "enabled": false,
+            "text": ""
+        },
+        "type": "point",
+        "visibility": {
+            "desktop": true,
+            "mobile": true
+        },
+        "visible": true,
+        "wikidata": null
+    },
+    {
+        "anchor": "middle-center",
+        "class": "",
+        "connectorLine": {
+            "arrowHead": "lines",
+            "enabled": false,
+            "lineLength": 0,
+            "stroke": 1,
+            "targetPadding": 3,
+            "type": "curveRight"
+        },
+        "coordinates": [
+            -84.97567311553331,
+            59.24473080948215
+        ],
+        "icon": {
+            "id": "none",
+            "path": "M0,0"
+        },
+        "id": "m75",
+        "labelStyle": "plain",
+        "locked": false,
+        "markerColor": "#333333",
+        "markerSymbol": "",
+        "markerTextColor": "#333333",
+        "offsetX": 0,
+        "offsetY": 0,
+        "preset": "5-water",
+        "rotate": 0,
+        "scale": 1,
+        "text": {
+            "bold": false,
+            "color": "#355364",
+            "fontSize": 12,
+            "halo": "#a4c7d8",
+            "italic": true,
+            "space": false,
+            "uppercase": false
+        },
+        "textPosition": null,
+        "title": "Hudson\nBay",
+        "tooltip": {
+            "enabled": false,
+            "text": ""
+        },
+        "type": "point",
+        "visibility": {
+            "desktop": true,
+            "mobile": true
+        },
+        "visible": true,
+        "wikidata": null
+    }
+]
