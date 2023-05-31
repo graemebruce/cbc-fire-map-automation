@@ -8,7 +8,7 @@ library(dplyr)
 
 agencies <- c("ab","sk","ak","bc","nt","pc","on","nb","ns","mb","qc")
 
-########################Locations########################
+########################Locations#######################
 active_fires_raw <- read.csv("https://cwfis.cfs.nrcan.gc.ca/downloads/activefires/activefires.csv")
 
 for (i in agencies) {
