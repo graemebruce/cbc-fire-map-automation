@@ -2,6 +2,9 @@ name: Update fire maps
 on:
   push:
     branches: main
+defaults:
+  run:
+   working-directory: Python
 jobs:
   update_map:
     runs-on: ubuntu-20.04
