@@ -34,7 +34,7 @@ data_locs = pd.concat([dataOC,dataBH])
 
 
 map = (dw.Map(map_id_locs)
-            .data(data_locs, append="./markers/ab/markers-temp.json")
+            .data(data_locs, append="./markers/ab/ab-location-m.json")
             .footer(source="Natural Resources Canada", byline ="(CBC)", timestamp= True, tz="America/Edmonton" )      
             .publish()
             )
@@ -59,7 +59,7 @@ data_perims["stroke-width"] = 1
 data_perims["fill"] = "#ff7f00"
 
 map = (dw.Map(map_id_perims)
-            .data(data_perims, append="./markers/ab/ab-boundaries.json")
+            .data(data_perims, append="./markers/ab/ab-boundaries-m.json")
             .footer(source="Natural Resources Canada", byline ="(CBC)", timestamp= True, tz="America/Edmonton" )      
             .publish()
             )
@@ -95,7 +95,7 @@ data_smoke = pd.concat([heavy, med, light])
 
 
 map = (dw.Map(map_id_smoke)
-            .data(data_smoke, append="./markers/ab/smoke-markers.json")
+            .data(data_smoke, append="./markers/ab/a-smoke-m.json")
             .footer(source="NOOA", byline = "(CBC)", timestamp=False, note="As of yesterday")      
             .publish()
             )
@@ -128,7 +128,7 @@ data_danger = pd.concat([extreme, very_high])
 
 
 map = (dw.Map(map_id_danger)
-            .data(data_danger, append="./markers/ab/fire-danger.json")
+            .data(data_danger, append="./markers/ab/ab-danger-m.json")
             .footer(source="Natural Resources Canada", byline ="(CBC)", timestamp= True, tz="America/Edmonton" )      
             .publish()
             )
