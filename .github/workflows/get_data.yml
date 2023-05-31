@@ -31,6 +31,7 @@ jobs:
     - name: Scrape
       run: |
           source("R/get_data.R")
+      shell: Rscript {0}
       
  # Add new files in data folder, commit along with other modified files, push
     - name: Commit files
