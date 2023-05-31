@@ -1,6 +1,6 @@
 name: get_data
 
-# Controls when the action will run.
+#  Controls when the action will run.
 on:
   push:
     branches: main
