@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"name": "..\/clean_map_data\/locations\/qc\/out_of_control_locations.geojson",
+"features": [
+{ "type": "Feature", "properties": { "agency": "qc", "firename": " 172", "lat": 50.6178, "lon": -66.0056, "startdate": " 2023-05-28 15:30:00", "hectares": 1731.3, "stage_of_control": " OC", "timezone": " EDT" }, "geometry": null }
+]
+}

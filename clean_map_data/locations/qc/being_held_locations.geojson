@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "..\/clean_map_data\/locations\/qc\/being_held_locations.geojson",
+"features": [
+{ "type": "Feature", "properties": { "agency": "qc", "firename": " 165", "lat": 49.0486, "lon": -75.8294, "startdate": " 2023-05-27 22:45:00", "hectares": 79.1, "stage_of_control": " BH", "timezone": " EDT" }, "geometry": null },
+{ "type": "Feature", "properties": { "agency": "qc", "firename": " 202", "lat": 47.3397, "lon": -73.7817, "startdate": " 2023-05-30 17:00:00", "hectares": 30.0, "stage_of_control": " BH", "timezone": " EDT" }, "geometry": null }
+]
+}

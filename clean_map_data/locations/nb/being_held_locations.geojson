@@ -1,0 +1,15 @@
+{
+"type": "FeatureCollection",
+"name": "..\/clean_map_data\/locations\/nb\/being_held_locations.geojson",
+"features": [
+{ "type": "Feature", "properties": { "agency": "nb", "firename": " 61842", "lat": 46.0465, "lon": -66.0233, "startdate": " 2023-05-27 17:00:46", "hectares": 4.8, "stage_of_control": " BH", "timezone": " ADT" }, "geometry": null },
+{ "type": "Feature", "properties": { "agency": "nb", "firename": " 61864", "lat": 46.6495, "lon": -65.8152, "startdate": " 2023-05-28 16:44:00", "hectares": 3.5, "stage_of_control": " BH", "timezone": " ADT" }, "geometry": null },
+{ "type": "Feature", "properties": { "agency": "nb", "firename": " 61902", "lat": 45.6278, "lon": -65.9153, "startdate": " 2023-05-29 02:27:39", "hectares": 40.0, "stage_of_control": " BH", "timezone": " ADT" }, "geometry": null },
+{ "type": "Feature", "properties": { "agency": "nb", "firename": " 61922", "lat": 46.5713, "lon": -64.9899, "startdate": " 2023-05-29 10:35:46", "hectares": 0.5, "stage_of_control": " BH", "timezone": " ADT" }, "geometry": null },
+{ "type": "Feature", "properties": { "agency": "nb", "firename": " 61982", "lat": 46.4134, "lon": -67.4673, "startdate": " 2023-05-30 07:06:34", "hectares": 0.1, "stage_of_control": " BH", "timezone": " ADT" }, "geometry": null },
+{ "type": "Feature", "properties": { "agency": "nb", "firename": " 61942", "lat": 46.5902, "lon": -65.0462, "startdate": " 2023-05-29 16:32:15", "hectares": 1.5, "stage_of_control": " BH", "timezone": " ADT" }, "geometry": null },
+{ "type": "Feature", "properties": { "agency": "nb", "firename": " 61963", "lat": 46.2509, "lon": -65.6889, "startdate": " 2023-05-29 22:34:10", "hectares": 0.3, "stage_of_control": " BH", "timezone": " ADT" }, "geometry": null },
+{ "type": "Feature", "properties": { "agency": "nb", "firename": " 61886", "lat": 46.1258, "lon": -65.9912, "startdate": " 2023-05-28 22:27:53", "hectares": 32.0, "stage_of_control": " BH", "timezone": " ADT" }, "geometry": null },
+{ "type": "Feature", "properties": { "agency": "nb", "firename": " 61962", "lat": 45.9333, "lon": -67.5853, "startdate": " 2023-05-29 20:06:48", "hectares": 0.7, "stage_of_control": " BH", "timezone": " ADT" }, "geometry": null }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "..\/clean_map_data\/locations\/ns\/being_held_locations.geojson",
+"features": [
+{ "type": "Feature", "properties": { "agency": "ns", "firename": " 01-022-2023", "lat": 44.5583, "lon": -64.336, "startdate": " 2023-05-28 20:00:00", "hectares": 7.2, "stage_of_control": " BH", "timezone": " ADT" }, "geometry": null },
+{ "type": "Feature", "properties": { "agency": "ns", "firename": " 09-013-2023", "lat": 44.7317, "lon": -63.7193, "startdate": " 2023-05-30 20:00:00", "hectares": 4.0, "stage_of_control": " BH", "timezone": " ADT" }, "geometry": null }
+]
+}

@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "..\/clean_map_data\/locations\/ns\/out_of_control_locations.geojson",
+"features": [
+{ "type": "Feature", "properties": { "agency": "ns", "firename": " 09-011-2023", "lat": 44.7233, "lon": -63.8765, "startdate": " 2023-05-28 20:00:00", "hectares": 837.0, "stage_of_control": " OC", "timezone": " ADT" }, "geometry": null },
+{ "type": "Feature", "properties": { "agency": "ns", "firename": " 03-010-2023", "lat": 43.6286, "lon": -65.5833, "startdate": " 2023-05-27 20:00:00", "hectares": 17186.0, "stage_of_control": " OC", "timezone": " ADT" }, "geometry": null },
+{ "type": "Feature", "properties": { "agency": "ns", "firename": " 04-022-2023", "lat": 43.6089, "lon": -65.7526, "startdate": " 2023-05-30 00:00:00", "hectares": 147.0, "stage_of_control": " OC", "timezone": " ADT" }, "geometry": null }
+]
+}

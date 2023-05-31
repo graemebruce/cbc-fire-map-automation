@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"name": "..\/clean_map_data\/locations\/nt\/being_held_locations.geojson",
+"features": [
+{ "type": "Feature", "properties": { "agency": "nt", "firename": " SS005-23", "lat": 60.8492, "lon": -115.694, "startdate": " 2023-05-14 15:45:00", "hectares": 3208.9, "stage_of_control": " BH", "timezone": "" }, "geometry": null }
+]
+}
