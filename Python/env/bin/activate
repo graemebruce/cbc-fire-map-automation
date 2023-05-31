@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/Users/brucegr/Desktop/fire-maps-py/env"
+VIRTUAL_ENV="/Users/martinew/Desktop/dw_scripts/cbc-fire-map-automation/Python/env"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

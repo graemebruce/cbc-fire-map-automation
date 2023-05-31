@@ -1,4 +1,4 @@
-#!/Users/brucegr/Desktop/fire-maps-py/env/bin/python3.10
+#!/Users/martinew/Desktop/dw_scripts/cbc-fire-map-automation/Python/env/bin/python3.10
 # -*- coding: utf-8 -*-
 import re
 import sys
