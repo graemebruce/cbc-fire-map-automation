@@ -121,7 +121,7 @@ data_smoke = pd.concat([heavy, med, light])
 
 map = (dw.Map(map_id_smoke)
             .data(data_smoke, append="./markers/ns/smoke-m.json")
-            .footer(source="NOOA", byline = "(CBC)", timestamp=True, tz="America/Halifax", note="Data as of yesterday" )      
+            .footer(source="NOOA", byline = "(CBC)", timestamp=True, tz="America/Halifax", note="Data as of yesterday. " )      
             .publish()
             )
 

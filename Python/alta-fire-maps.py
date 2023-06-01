@@ -16,8 +16,8 @@ import datawrappergraphics as dw
 
 map_id_locs = "Dff0Y"  #id
 
-dataOC = geopandas.read_file("./clean_map_data/locations/ab/out_of_control_locations.geojson")
-dataBH = geopandas.read_file("./clean_map_data/locations/ab/being_held_locations.geojson")
+dataOC = geopandas.read_file("../clean_map_data/locations/ab/out_of_control_locations.geojson")
+dataBH = geopandas.read_file("../clean_map_data/locations/ab/being_held_locations.geojson")
 
 
 dataOC["type"] = "point"
@@ -49,7 +49,7 @@ map_id_perims = "tpsTE"   #id
 
 
 
-data_perims = geopandas.read_file("./clean_map_data/fire_perims/fire_perims_simple.geojson")
+data_perims = geopandas.read_file("../clean_map_data/fire_perims/fire_perims_simple.geojson")
 
 
 
@@ -70,20 +70,20 @@ map = (dw.Map(map_id_perims)
 
 map_id_smoke = "QV3Jh"   #id
 
-heavy = geopandas.read_file("./clean_map_data/smoke/heavy_smoke.geojson")
+heavy = geopandas.read_file("../clean_map_data/smoke/heavy_smoke.geojson")
 
 heavy["fill"] = "#c42127"
 heavy["fill-opacity"] = 0.6
 heavy["stroke"] = False
 
-med = geopandas.read_file("./clean_map_data/smoke/medium_smoke.geojson")
+med = geopandas.read_file("../clean_map_data/smoke/medium_smoke.geojson")
 
 med["stroke"] = False
 med["fill-opacity"] = 0.4
 med["fill"] = "#ff7f00"
 
 
-light = geopandas.read_file("./clean_map_data/smoke/light_smoke.geojson")
+light = geopandas.read_file("../clean_map_data/smoke/light_smoke.geojson")
 
 light["fill"] = "#f2d59d"
 light["stroke"] = False
@@ -96,7 +96,7 @@ data_smoke = pd.concat([heavy, med, light])
 
 map = (dw.Map(map_id_smoke)
             .data(data_smoke, append="./markers/ab/a-smoke-m.json")
-            .footer(source="NOOA", byline = "(CBC)", timestamp=True, tz="America/Edmonton", note="Data as of yesterday")      
+            .footer(source="NOOA", byline = "(CBC)", timestamp=True, tz="America/Edmonton", note="Data as of yesterday. ")      
             .publish()
             )
 
@@ -108,13 +108,13 @@ map = (dw.Map(map_id_smoke)
 
 map_id_danger = "pNxnP"  #id
 
-extreme = geopandas.read_file("./clean_map_data/danger/extreme_danger_4_simple.geojson")
+extreme = geopandas.read_file("../clean_map_data/danger/extreme_danger_4_simple.geojson")
 
 extreme["fill"] = "#c42127"
 extreme["fill-opacity"] = 0.9
 extreme["stroke"] = False
 
-very_high = geopandas.read_file("./clean_map_data/danger/very_high_danger_3_simple.geojson")
+very_high = geopandas.read_file("../clean_map_data/danger/very_high_danger_3_simple.geojson")
 
 very_high["stroke"] = False
 very_high["fill"] = "#ff7f00"
