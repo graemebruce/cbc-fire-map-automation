@@ -11,22 +11,30 @@ agencies <- c("ab","sk","ak","bc","nt","pc","on","nb","ns","mb","qc")
 ########################Locations########################
 active_fires_raw <- read.csv("https://cwfis.cfs.nrcan.gc.ca/downloads/activefires/activefires.csv")
 
+#split active fires into provinces
 for (i in agencies) {
-  
   out_of_control_locations <- active_fires_raw %>%
     dplyr::filter(agency == i,
                   stage_of_control ==" OC") 
-  write.csv(out_of_control_locations,paste0("clean_map_data/locations/",i,"/out_of_control_locations.csv"))
-  # sf::st_write(out_of_control_locations, dsn = "clean_map_data/locations/out_of_control_locations.geojson", layer = "clean_map_data/locations/out_of_control_locations.geojson",delete_dsn = T)
+  #write.csv(out_of_control_locations,paste0("clean_map_data/locations/",i,"/out_of_control_locations.csv"))
+  sf::st_write(out_of_control_locations, dsn = paste0("../clean_map_data/locations/",i,"/out_of_control_locations.geojson"), layer = paste0("clean_map_data/locations/",i,"/out_of_control_locations.geojson"), delete_dsn = T)
   
   being_held_locations <- active_fires_raw %>%
     dplyr::filter(agency == i,
                   stage_of_control ==" BH")
-  write.csv(being_held_locations,paste0("clean_map_data/locations/",i,"/being_held_locations.csv"))
-  # sf::st_write(being_held_locations, dsn = "clean_map_data/locations/being_held_locations.geojson", layer = "clean_map_data/locations/being_held_locations.geojson",delete_dsn = T)
+  # write.csv(being_held_locations,paste0("clean_map_data/locations/",i,"/being_held_locations.csv"))
+  sf::st_write(being_held_locations, dsn = paste0("../clean_map_data/locations/",i,"/being_held_locations.geojson"), layer = paste0("clean_map_data/locations/",i,"/being_held_locations.geojson"),delete_dsn = T)
   
   print(paste0(i, " complete."))
 }
+
+#Create Canadawide dataset with just out-of-control fires over 100 hectares
+canada_oc_100_hec <- active_fires_raw %>%
+  dplyr::filter(stage_of_control ==" OC",
+                hectares >100)
+
+sf::st_write(canada_oc_100_hec, dsn = paste0("../clean_map_data/locations/canada_oc_100_hec/canada_oc_100_hec.geojson"), layer = paste0("clean_map_data/locations/",i,"/canada_oc_100_hec.geojson"),delete_dsn = T)
+
 
 ########################Perimeters########################
 

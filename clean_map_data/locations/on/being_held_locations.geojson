@@ -1,8 +1,7 @@
 {
 "type": "FeatureCollection",
-"name": "..\/clean_map_data\/locations\/on\/being_held_locations.geojson",
+"name": "clean_map_data\/locations\/on\/being_held_locations.geojson",
 "features": [
-{ "type": "Feature", "properties": { "agency": "on", "firename": " DRY_FIRE_005", "lat": 49.9812, "lon": -93.1596, "startdate": " 2023-05-27 22:38:00", "hectares": 8.9, "stage_of_control": " BH", "timezone": " GMT" }, "geometry": null },
-{ "type": "Feature", "properties": { "agency": "on", "firename": " KLK_FIRE_001", "lat": 48.3345, "lon": -80.249, "startdate": " 2023-05-30 22:14:00", "hectares": 0.3, "stage_of_control": " BH", "timezone": " GMT" }, "geometry": null }
+{ "type": "Feature", "properties": { "agency": "on", "firename": " RED_FIRE_008", "lat": 51.5706, "lon": -93.8938, "startdate": " 2023-05-31 12:00:00", "hectares": 3.0, "stage_of_control": " BH", "timezone": " GMT" }, "geometry": null }
 ]
 }

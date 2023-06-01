@@ -1,7 +1,7 @@
 {
 "type": "FeatureCollection",
-"name": "..\/clean_map_data\/locations\/mb\/out_of_control_locations.geojson",
+"name": "clean_map_data\/locations\/mb\/out_of_control_locations.geojson",
 "features": [
-{ "type": "Feature", "properties": { "agency": "mb", "firename": " NO012", "lat": 56.5183, "lon": -94.1239, "startdate": " 2023-05-30 05:00:00", "hectares": 0.1, "stage_of_control": " OC", "timezone": " CDT" }, "geometry": null }
+
 ]
 }

@@ -1,7 +1,11 @@
 {
 "type": "FeatureCollection",
-"name": "..\/clean_map_data\/locations\/qc\/out_of_control_locations.geojson",
+"name": "clean_map_data\/locations\/qc\/out_of_control_locations.geojson",
 "features": [
-{ "type": "Feature", "properties": { "agency": "qc", "firename": " 172", "lat": 50.6178, "lon": -66.0056, "startdate": " 2023-05-28 15:30:00", "hectares": 1731.3, "stage_of_control": " OC", "timezone": " EDT" }, "geometry": null }
+{ "type": "Feature", "properties": { "agency": "qc", "firename": " 219", "lat": 53.1581, "lon": -75.25, "startdate": " 2023-05-27 19:45:00", "hectares": 700.0, "stage_of_control": " OC", "timezone": " EDT" }, "geometry": null },
+{ "type": "Feature", "properties": { "agency": "qc", "firename": " 213", "lat": 49.7425, "lon": -74.9861, "startdate": " 2023-05-31 19:10:00", "hectares": 2400.0, "stage_of_control": " OC", "timezone": " EDT" }, "geometry": null },
+{ "type": "Feature", "properties": { "agency": "qc", "firename": " 218", "lat": 53.0261, "lon": -75.2931, "startdate": " 2023-05-27 19:43:00", "hectares": 4300.0, "stage_of_control": " OC", "timezone": " EDT" }, "geometry": null },
+{ "type": "Feature", "properties": { "agency": "qc", "firename": " 172", "lat": 50.6178, "lon": -66.0056, "startdate": " 2023-05-28 15:30:00", "hectares": 534.4, "stage_of_control": " OC", "timezone": " EDT" }, "geometry": null },
+{ "type": "Feature", "properties": { "agency": "qc", "firename": " 215", "lat": 50.3747, "lon": -66.3844, "startdate": " 2023-05-31 05:00:00", "hectares": 534.1, "stage_of_control": " OC", "timezone": " EDT" }, "geometry": null }
 ]
 }
