@@ -15,14 +15,18 @@ active_fires_raw <- read.csv("https://cwfis.cfs.nrcan.gc.ca/downloads/activefire
 for (i in agencies) {
   out_of_control_locations <- active_fires_raw %>%
     dplyr::filter(agency == i,
-                  stage_of_control ==" OC") 
-  #write.csv(out_of_control_locations,paste0("clean_map_data/locations/",i,"/out_of_control_locations.csv"))
-  sf::st_write(out_of_control_locations, dsn = paste0("../clean_map_data/locations/",i,"/out_of_control_locations.geojson"), layer = paste0("clean_map_data/locations/",i,"/out_of_control_locations.geojson"), delete_dsn = T)
+                  stage_of_control ==" OC") %>%
+    dplyr::rename(LATITUDE = lat,
+                  LONGITUDE = lon) %>%
+    st_as_sf(coords = c("LONGITUDE", "LATITUDE"), crs = 4326)
+  sf::st_write(out_of_control_locations, dsn = paste0("../clean_map_data/locations/",i,"/out_of_control_locations.geojson"), driver="GeoJSON", delete_dsn = T)
   
   being_held_locations <- active_fires_raw %>%
     dplyr::filter(agency == i,
-                  stage_of_control ==" BH")
-  # write.csv(being_held_locations,paste0("clean_map_data/locations/",i,"/being_held_locations.csv"))
+                  stage_of_control ==" BH") %>%
+    dplyr::rename(LATITUDE = lat,
+                  LONGITUDE = lon) %>%
+    st_as_sf(coords = c("LONGITUDE", "LATITUDE"), crs = 4326)
   sf::st_write(being_held_locations, dsn = paste0("../clean_map_data/locations/",i,"/being_held_locations.geojson"), layer = paste0("clean_map_data/locations/",i,"/being_held_locations.geojson"),delete_dsn = T)
   
   print(paste0(i, " complete."))
@@ -31,7 +35,10 @@ for (i in agencies) {
 #Create Canadawide dataset with just out-of-control fires over 100 hectares
 canada_oc_100_hec <- active_fires_raw %>%
   dplyr::filter(stage_of_control ==" OC",
-                hectares >100)
+                hectares >100) %>%
+  dplyr::rename(LATITUDE = lat,
+                LONGITUDE = lon) %>%
+  st_as_sf(coords = c("LONGITUDE", "LATITUDE"), crs = 4326)
 
 sf::st_write(canada_oc_100_hec, dsn = paste0("../clean_map_data/locations/canada_oc_100_hec/canada_oc_100_hec.geojson"), layer = paste0("clean_map_data/locations/",i,"/canada_oc_100_hec.geojson"),delete_dsn = T)
 

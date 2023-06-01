@@ -1,7 +1,10 @@
 {
 "type": "FeatureCollection",
 "name": "clean_map_data\/locations\/on\/being_held_locations.geojson",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "agency": "on", "firename": " RED_FIRE_008", "lat": 51.5706, "lon": -93.8938, "startdate": " 2023-05-31 12:00:00", "hectares": 3.0, "stage_of_control": " BH", "timezone": " GMT" }, "geometry": null }
+{ "type": "Feature", "properties": { "agency": "on", "firename": " RED_FIRE_008", "startdate": " 2023-05-31 12:00:00", "hectares": 3.0, "stage_of_control": " BH", "timezone": " GMT" }, "geometry": { "type": "Point", "coordinates": [ -93.8938, 51.5706 ] } },
+{ "type": "Feature", "properties": { "agency": "on", "firename": " SUD_FIRE_005", "startdate": " 2023-05-31 22:41:00", "hectares": 1.0, "stage_of_control": " BH", "timezone": " GMT" }, "geometry": { "type": "Point", "coordinates": [ -81.1088, 46.4995 ] } },
+{ "type": "Feature", "properties": { "agency": "on", "firename": " KLK_FIRE_002", "startdate": " 2023-05-31 21:48:00", "hectares": 2.0, "stage_of_control": " BH", "timezone": " GMT" }, "geometry": { "type": "Point", "coordinates": [ -80.2263, 48.1409 ] } }
 ]
 }
