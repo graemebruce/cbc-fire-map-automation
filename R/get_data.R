@@ -78,20 +78,21 @@ smoke_data_east <- smoke_data %>%
   dplyr::filter(Satellite == "GOES-EAST") 
 
 heavy_smoke <- smoke_data_east %>%
-  dplyr::filter(Density=="Heavy")
-# slice_max(End, n = 1) #This picks the latest observation if there is more than one
-sf::st_write(heavy_smoke , dsn = "clean_map_data/smoke/heavy_smoke.geojson", layer = "clean_map_data/smoke/heavy_smoke.geojson",delete_dsn = T)
+  dplyr::filter(Density=="Heavy") %>%
+slice_max(End, n = 1) #This picks the latest observation if there is more than one
+sf::st_write(heavy_smoke, dsn = "../clean_map_data/smoke/heavy_smoke.geojson", layer = "clean_map_data/smoke/heavy_smoke.geojson",delete_dsn = T)
 
 medium_smoke <- smoke_data_east %>%
-  dplyr::filter(Density=="Medium") 
-sf::st_write(medium_smoke, dsn = "clean_map_data/smoke/medium_smoke.geojson", layer = "clean_map_data/smoke/medium_smoke.geojson",delete_dsn = T)
+  dplyr::filter(Density=="Medium") %>%
+  slice_max(End, n = 1) #This picks the latest observation if there is more than one
+sf::st_write(medium_smoke, dsn = "../clean_map_data/smoke/medium_smoke.geojson", layer = "clean_map_data/smoke/medium_smoke.geojson",delete_dsn = T)
 
 light_smoke <- smoke_data_east %>%
-  dplyr::filter(Density=="Light")
-sf::st_write(light_smoke, dsn = "clean_map_data/smoke/light_smoke.geojson", layer = "clean_map_data/smoke/light_smoke.geojson",delete_dsn = T)
+  dplyr::filter(Density=="Light") %>%
+  slice_max(End, n = 1) #This picks the latest observation if there is more than one
+sf::st_write(light_smoke, dsn = "../clean_map_data/smoke/light_smoke.geojson", layer = "clean_map_data/smoke/light_smoke.geojson",delete_dsn = T)
 
 ########################Danger########################
-
 
 danger_url <- "https://cwfis.cfs.nrcan.gc.ca/downloads/fire_danger/fdr_scribe.zip"
 
