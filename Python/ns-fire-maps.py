@@ -49,7 +49,7 @@ map = (dw.Map(map_id_locs)
 map_id_perims = "0Fjmx"   #id
 
 
-data_perims = geopandas.read_file("./clean_map_data/fire_perims/fire_perims_simple.geojson")
+data_perims = geopandas.read_file("../clean_map_data/fire_perims/fire_perims_simple.geojson")
 
 data_perims["stroke"] = "#ff7f00"
 data_perims["stroke-width"] = 1
@@ -72,7 +72,7 @@ map = (dw.Map(map_id_perims)
 map_id_perims = "1Zv0y"     #id
 
 
-data_perims = geopandas.read_file("./clean_map_data/fire_perims/fire_perims_simple.geojson")
+data_perims = geopandas.read_file("../clean_map_data/fire_perims/fire_perims_simple.geojson")
 
 data_perims["stroke"] = "#ff7f00"
 data_perims["stroke-width"] = 1
@@ -95,20 +95,20 @@ map = (dw.Map(map_id_perims)
 
 map_id_smoke = "NoDPF"   #id
 
-heavy = geopandas.read_file("./clean_map_data/smoke/heavy_smoke.geojson")
+heavy = geopandas.read_file("../clean_map_data/smoke/heavy_smoke.geojson")
 
 heavy["fill"] = "#c42127"
 heavy["fill-opacity"] = 1
 heavy["stroke"] = False
 
-med = geopandas.read_file("./clean_map_data/smoke/medium_smoke.geojson")
+med = geopandas.read_file("../clean_map_data/smoke/medium_smoke.geojson")
 
 med["stroke"] = False
 med["fill-opacity"] = 0.4
 med["fill"] = "#ff7f00"
 
 
-light = geopandas.read_file("./clean_map_data/smoke/light_smoke.geojson")
+light = geopandas.read_file("../clean_map_data/smoke/light_smoke.geojson")
 
 light["fill"] = "#f2d59d"
 light["stroke"] = False
@@ -135,7 +135,7 @@ map = (dw.Map(map_id_smoke)
 
 map_id_danger = "u29Ps"    #id
 
-extreme = geopandas.read_file("./clean_map_data/danger/extreme_danger_4_simple.geojson")
+extreme = geopandas.read_file("../clean_map_data/danger/extreme_danger_4_simple.geojson")
 
 extreme["fill"] = "#c42127"
 extreme["fill-opacity"] = 0.9
