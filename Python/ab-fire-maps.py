@@ -35,7 +35,7 @@ data_locs = pd.concat([dataOC,dataBH])
 
 map = (dw.Map(map_id_locs)
             .data(data_locs, append="./markers/ab/ab-location-m.json")
-            .footer(source="Natural Resources Canada", byline ="Graeme Bruce, Wendy Martinez/CBC", timestamp= True, tz="America/Edmonton" )      
+            .footer(source="Natural Resources Canada,", byline ="Graeme Bruce, Wendy Martinez/CBC", timestamp= True, tz="America/Edmonton" )      
             .publish()
             )
 
