@@ -141,7 +141,7 @@ extreme["fill"] = "#c42127"
 extreme["fill-opacity"] = 0.9
 extreme["stroke"] = False
 
-very_high = geopandas.read_file("./clean_map_data/danger/very_high_danger_3_simple.geojson")
+very_high = geopandas.read_file("../clean_map_data/danger/very_high_danger_3_simple.geojson")
 
 very_high["stroke"] = False
 very_high["fill"] = "#ff7f00"
