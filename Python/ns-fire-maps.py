@@ -98,7 +98,7 @@ map_id_smoke = "NoDPF"   #id
 heavy = geopandas.read_file("../clean_map_data/smoke/heavy_smoke.geojson")
 
 heavy["fill"] = "#c42127"
-heavy["fill-opacity"] = 1
+heavy["fill-opacity"] = 0.6
 heavy["stroke"] = False
 
 med = geopandas.read_file("../clean_map_data/smoke/medium_smoke.geojson")
