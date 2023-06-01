@@ -16,8 +16,8 @@ import pytz
 
 map_id_locs = "IHe9u" #id
 
-dataOC = geopandas.read_file("./clean_map_data/locations/ns/out_of_control_locations.geojson")
-dataBH = geopandas.read_file("./clean_map_data/locations/ns/being_held_locations.geojson")
+dataOC = geopandas.read_file("../clean_map_data/locations/ns/out_of_control_locations.geojson")
+dataBH = geopandas.read_file("../clean_map_data/locations/ns/being_held_locations.geojson")
 
 
 
