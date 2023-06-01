@@ -1,7 +1,7 @@
 name: Update Canada fire maps
 on:
-  push:
-    branches: main
+  schedule:
+    - cron:  '0 10 * * *'
 defaults:
   run:
    working-directory: Python
