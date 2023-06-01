@@ -26,6 +26,6 @@ dataOC["markerColor"] = ("#c42127")
 
 map = (dw.Map(map_id_locs)
             .data(dataOC, append="./markers/canada/canada-location-m.json")
-            .footer(source="Natural Resources Canada,", byline ="Graeme Bruce, Wendy Martinez/CBC" )      
+            .footer(source="Natural Resources Canada", byline ="(Graeme Bruce, Wendy Martinez/CBC)" )      
             .publish()
             )

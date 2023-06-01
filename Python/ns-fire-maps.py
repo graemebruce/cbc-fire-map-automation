@@ -38,7 +38,7 @@ data_locs = pd.concat([dataOC,dataBH])
 
 map = (dw.Map(map_id_locs)
             .data(data_locs, append="./markers/ns/locations-m.json")
-            .footer(source="Natural Resources Canada,", byline = "Graeme Bruce, Wendy Martinez/CBC", timestamp= True, tz="America/Halifax" )      
+            .footer(source="Natural Resources Canada", byline = "(Graeme Bruce, Wendy Martinez/CBC)", timestamp= True, tz="America/Halifax" )      
             .publish()
             )
 
@@ -83,7 +83,7 @@ data_perims["fill-opacity"] = 0.6
 
 map = (dw.Map(map_id_perims)
             .data(data_perims, append="./markers/ns/perims-2.json")
-            .footer(source="Natural Resources Canada,", byline="Graeme Bruce, Wendy Martinez/CBC", timestamp= True, tz="America/Halifax")      
+            .footer(source="Natural Resources Canada", byline="(Graeme Bruce, Wendy Martinez/CBC)", timestamp= True, tz="America/Halifax")      
             .publish()
             )
 
@@ -121,7 +121,7 @@ data_smoke = pd.concat([heavy, med, light])
 
 map = (dw.Map(map_id_smoke)
             .data(data_smoke, append="./markers/ns/smoke-m.json")
-            .footer(source="NOOA,", byline = "Graeme Bruce, Wendy Martinez/CBC", timestamp=True, tz="America/Halifax", note="Data as of yesterday. " )      
+            .footer(source="NOAA", byline = "(Graeme Bruce, Wendy Martinez/CBC)", timestamp=True, tz="America/Halifax", note="Data as of yesterday. " )      
             .publish()
             )
 
@@ -155,7 +155,7 @@ data_danger = pd.concat([extreme,very_high])
 
 map = (dw.Map(map_id_danger)
             .data(data_danger, append="./markers/ns/fd-m.json")
-            .footer(source="Natural Resources Canada,", byline ="Graeme Bruce, Wendy Martinez/CBC", timestamp= True, tz="America/Halifax" )      
+            .footer(source="Natural Resources Canada", byline ="(Graeme Bruce, Wendy Martinez/CBC)", timestamp= True, tz="America/Halifax" )      
             .publish()
             )
 

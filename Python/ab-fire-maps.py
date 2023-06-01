@@ -35,7 +35,7 @@ data_locs = pd.concat([dataOC,dataBH])
 
 map = (dw.Map(map_id_locs)
             .data(data_locs, append="./markers/ab/ab-location-m.json")
-            .footer(source="Natural Resources Canada,", byline ="Graeme Bruce, Wendy Martinez/CBC", timestamp= True, tz="America/Edmonton" )      
+            .footer(source="Natural Resources Canada", byline ="(Graeme Bruce, Wendy Martinez/CBC)", timestamp= True, tz="America/Edmonton" )      
             .publish()
             )
 
@@ -60,7 +60,7 @@ data_perims["fill"] = "#ff7f00"
 
 map = (dw.Map(map_id_perims)
             .data(data_perims, append="./markers/ab/ab-boundaries-m.json")
-            .footer(source="Natural Resources Canada,", byline ="Graeme Bruce, Wendy Martinez/CBC", timestamp= True, tz="America/Edmonton" )      
+            .footer(source="Natural Resources Canada", byline ="(Graeme Bruce, Wendy Martinez/CBC)", timestamp= True, tz="America/Edmonton" )      
             .publish()
             )
 
@@ -96,7 +96,7 @@ data_smoke = pd.concat([heavy, med, light])
 
 map = (dw.Map(map_id_smoke)
             .data(data_smoke, append="./markers/ab/ab-smoke-m.json")
-            .footer(source="NOOA,", byline = "Graeme Bruce, Wendy Martinez/CBC", timestamp=True, tz="America/Edmonton", note="Data as of yesterday. ")      
+            .footer(source="NOAA", byline = "(Graeme Bruce, Wendy Martinez/CBC)", timestamp=True, tz="America/Edmonton", note="Data as of yesterday. ")      
             .publish()
             )
 
@@ -129,7 +129,7 @@ data_danger = pd.concat([extreme, very_high])
 
 map = (dw.Map(map_id_danger)
             .data(data_danger, append="./markers/ab/ab-danger-m.json")
-            .footer(source="Natural Resources Canada,", byline ="Graeme Bruce, Wendy Martinez/CBC", timestamp= True, tz="America/Edmonton" )      
+            .footer(source="Natural Resources Canada", byline ="(Graeme Bruce, Wendy Martinez/CBC)", timestamp= True, tz="America/Edmonton" )      
             .publish()
             )
 
