@@ -1,7 +1,7 @@
 name: Update ab fire maps
 on:
-  push:
-    branches: main
+  schedule:
+    - cron:  '0 12 * * *'
 defaults:
   run:
    working-directory: Python
