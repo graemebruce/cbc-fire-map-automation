@@ -1,4 +1,4 @@
-name: Update fire maps
+name: Update ns fire maps
 on:
   push:
     branches: main
