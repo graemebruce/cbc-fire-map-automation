@@ -95,7 +95,7 @@ data_smoke = pd.concat([heavy, med, light])
 
 
 map = (dw.Map(map_id_smoke)
-            .data(data_smoke, append="./markers/ab/a-smoke-m.json")
+            .data(data_smoke, append="./markers/ab/ab-smoke-m.json")
             .footer(source="NOOA", byline = "(CBC)", timestamp=True, tz="America/Edmonton", note="Data as of yesterday. ")      
             .publish()
             )
