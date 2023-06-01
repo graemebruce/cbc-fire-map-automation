@@ -21,4 +21,4 @@ Also note that since we plan to run this once per day in the morning, we take sm
 Again, this data comes from Natural Resources Canada. We're only concerned about extreme and very high, and high danger levels. Most of the time, Datawrapper can only take extreme and very high due to file size.
 
 ## Mapping
-Mapping uses a Python library called Datawrappergrahics (https://github.com/dexmcmillan/datawrappergraphics).
+Mapping uses a Python library called Datawrappergraphics (https://github.com/dexmcmillan/datawrappergraphics).
