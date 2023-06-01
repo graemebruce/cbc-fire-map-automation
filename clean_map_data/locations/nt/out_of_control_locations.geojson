@@ -1,13 +1,14 @@
 {
 "type": "FeatureCollection",
-"name": "..\/clean_map_data\/locations\/nt\/out_of_control_locations.geojson",
+"name": "clean_map_data\/locations\/nt\/out_of_control_locations.geojson",
 "features": [
 { "type": "Feature", "properties": { "agency": "nt", "firename": " FS005-23", "lat": 62.8533, "lon": -124.842, "startdate": " 2023-05-19 22:25:00", "hectares": 540.0, "stage_of_control": " OC", "timezone": " MDT" }, "geometry": null },
 { "type": "Feature", "properties": { "agency": "nt", "firename": " FS004-23", "lat": 63.2583, "lon": -125.12, "startdate": " 2023-05-17 14:30:00", "hectares": 10335.0, "stage_of_control": " OC", "timezone": " MDT" }, "geometry": null },
 { "type": "Feature", "properties": { "agency": "nt", "firename": " FS003-23", "lat": 62.554, "lon": -124.644, "startdate": " 2023-05-17 14:30:00", "hectares": 12453.0, "stage_of_control": " OC", "timezone": " MDT" }, "geometry": null },
 { "type": "Feature", "properties": { "agency": "nt", "firename": " SS008-23", "lat": 60.325, "lon": -119.086, "startdate": " 2023-05-23 18:00:00", "hectares": 63370.0, "stage_of_control": " OC", "timezone": " MDT" }, "geometry": null },
 { "type": "Feature", "properties": { "agency": "nt", "firename": " FS002-23", "lat": 61.8247, "lon": -123.87, "startdate": " 2023-05-19 21:49:00", "hectares": 14550.0, "stage_of_control": " OC", "timezone": " MDT" }, "geometry": null },
-{ "type": "Feature", "properties": { "agency": "nt", "firename": " FS001-23", "lat": 60.0514, "lon": -120.976, "startdate": " 2023-05-13 21:30:00", "hectares": 49548.0, "stage_of_control": " OC", "timezone": " MDT" }, "geometry": null },
-{ "type": "Feature", "properties": { "agency": "nt", "firename": " SS004-23", "lat": 60.9536, "lon": -119.188, "startdate": " 2023-05-12 23:30:00", "hectares": 5356.0, "stage_of_control": " OC", "timezone": " MDT" }, "geometry": null }
+{ "type": "Feature", "properties": { "agency": "nt", "firename": " SS004-23", "lat": 60.9536, "lon": -119.188, "startdate": " 2023-05-12 23:30:00", "hectares": 5356.0, "stage_of_control": " OC", "timezone": " MDT" }, "geometry": null },
+{ "type": "Feature", "properties": { "agency": "nt", "firename": " SS010-23", "lat": 60.1188, "lon": -111.076, "startdate": " 2023-05-31 21:54:00", "hectares": 6.0, "stage_of_control": " OC", "timezone": " MDT" }, "geometry": null },
+{ "type": "Feature", "properties": { "agency": "nt", "firename": " FS001-23", "lat": 60.0514, "lon": -120.976, "startdate": " 2023-05-13 21:30:00", "hectares": 67920.0, "stage_of_control": " OC", "timezone": " MDT" }, "geometry": null }
 ]
 }

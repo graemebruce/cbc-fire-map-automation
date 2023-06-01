@@ -1,17 +1,17 @@
 {
 "type": "FeatureCollection",
-"name": "..\/clean_map_data\/locations\/bc\/out_of_control_locations.geojson",
+"name": "clean_map_data\/locations\/bc\/out_of_control_locations.geojson",
 "features": [
-{ "type": "Feature", "properties": { "agency": "bc", "firename": " 2023-G90358", "lat": 59.1388, "lon": -120.334, "startdate": " 2023-05-18 00:50:00", "hectares": 8000.0, "stage_of_control": " OC", "timezone": " PDT" }, "geometry": null },
 { "type": "Feature", "properties": { "agency": "bc", "firename": " 2023-G90288", "lat": 59.9636, "lon": -120.987, "startdate": " 2023-05-13 20:30:00", "hectares": 70000.0, "stage_of_control": " OC", "timezone": " PDT" }, "geometry": null },
-{ "type": "Feature", "properties": { "agency": "bc", "firename": " 2023-V50522", "lat": 49.4576, "lon": -123.569, "startdate": " 2023-05-29 01:24:00", "hectares": 0.01, "stage_of_control": " OC", "timezone": " PDT" }, "geometry": null },
+{ "type": "Feature", "properties": { "agency": "bc", "firename": " 2023-G90358", "lat": 59.1388, "lon": -120.334, "startdate": " 2023-05-18 00:50:00", "hectares": 8000.0, "stage_of_control": " OC", "timezone": " PDT" }, "geometry": null },
 { "type": "Feature", "properties": { "agency": "bc", "firename": " 2023-C30399", "lat": 52.6166, "lon": -121.071, "startdate": " 2023-05-19 21:10:00", "hectares": 73.0, "stage_of_control": " OC", "timezone": " PDT" }, "geometry": null },
 { "type": "Feature", "properties": { "agency": "bc", "firename": " 2023-C30440", "lat": 52.6309, "lon": -121.04, "startdate": " 2023-05-21 00:44:00", "hectares": 16.0, "stage_of_control": " OC", "timezone": " PDT" }, "geometry": null },
 { "type": "Feature", "properties": { "agency": "bc", "firename": " 2023-C30446", "lat": 52.8373, "lon": -120.466, "startdate": " 2023-05-21 01:42:00", "hectares": 120.0, "stage_of_control": " OC", "timezone": " PDT" }, "geometry": null },
 { "type": "Feature", "properties": { "agency": "bc", "firename": " 2023-G90273", "lat": 58.0617, "lon": -121.912, "startdate": " 2023-05-12 20:25:00", "hectares": 29060.0, "stage_of_control": " OC", "timezone": " PDT" }, "geometry": null },
-{ "type": "Feature", "properties": { "agency": "bc", "firename": " 2023-V80527", "lat": 50.3705, "lon": -126.037, "startdate": " 2023-05-29 21:34:00", "hectares": 90.0, "stage_of_control": " OC", "timezone": " PDT" }, "geometry": null },
 { "type": "Feature", "properties": { "agency": "bc", "firename": " 2023-G60325", "lat": 57.3534, "lon": -124.844, "startdate": " 2023-05-15 21:48:00", "hectares": 17215.0, "stage_of_control": " OC", "timezone": " PDT" }, "geometry": null },
-{ "type": "Feature", "properties": { "agency": "bc", "firename": " 2023-G30534", "lat": 52.0869, "lon": -119.224, "startdate": " 2023-05-30 18:05:00", "hectares": 0.0, "stage_of_control": " OC", "timezone": " PDT" }, "geometry": null },
-{ "type": "Feature", "properties": { "agency": "bc", "firename": " 2023-G80280", "lat": 57.6187, "lon": -122.012, "startdate": " 2023-05-13 00:58:00", "hectares": 168395.0, "stage_of_control": " OC", "timezone": " PDT" }, "geometry": null }
+{ "type": "Feature", "properties": { "agency": "bc", "firename": " 2023-G80280", "lat": 57.6187, "lon": -122.012, "startdate": " 2023-05-13 00:58:00", "hectares": 168395.0, "stage_of_control": " OC", "timezone": " PDT" }, "geometry": null },
+{ "type": "Feature", "properties": { "agency": "bc", "firename": " 2023-R20549", "lat": 54.1716, "lon": -126.841, "startdate": " 2023-06-01 00:21:00", "hectares": 0.01, "stage_of_control": " OC", "timezone": " PDT" }, "geometry": null },
+{ "type": "Feature", "properties": { "agency": "bc", "firename": " 2023-V80527", "lat": 50.3705, "lon": -126.037, "startdate": " 2023-05-29 21:34:00", "hectares": 160.0, "stage_of_control": " OC", "timezone": " PDT" }, "geometry": null },
+{ "type": "Feature", "properties": { "agency": "bc", "firename": " 2023-G30554", "lat": 52.6877, "lon": -119.078, "startdate": " 2023-06-01 04:33:00", "hectares": 0.2, "stage_of_control": " OC", "timezone": " PDT" }, "geometry": null }
 ]
 }
