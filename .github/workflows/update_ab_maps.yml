@@ -1,4 +1,4 @@
-name: Update ns fire maps
+name: Update ab fire maps
 on:
   push:
     branches: main
@@ -26,4 +26,4 @@ jobs:
       - name: Chart update and publish
         env: 
             DW_AUTH_TOKEN: ${{ secrets.DW_AUTH_TOKEN }}
-        run: python3 ns-fire-maps.py
+        run: python3 ab-fire-maps.py
