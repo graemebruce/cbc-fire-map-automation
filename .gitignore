@@ -51,6 +51,5 @@ rsconnect/
 # Ignore environment folder
 env/
 
-# Ignore environment folder
-auth.txt
+# Ignore auth
 auth.txt
