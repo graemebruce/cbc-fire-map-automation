@@ -47,3 +47,9 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# Ignore environment folder
+Env/
+
+# Ignore environment folder
+auth.txt
