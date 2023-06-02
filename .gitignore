@@ -52,4 +52,4 @@ rsconnect/
 env/
 
 # Ignore auth
-auth.txt
+Python/auth.txt
