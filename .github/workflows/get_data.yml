@@ -5,12 +5,9 @@ name: get_data
 #  schedule:
 #    - cron:  '0 10 * * *'
 
-on:
-  push:
-    branches: main
-defaults:
-  run:
-   working-directory: R    
+# on:
+#   push:
+#     branches: main
    
 jobs: 
   autoscrape:
@@ -35,7 +32,8 @@ jobs:
         
     # Run R script
     - name: Scrape
-      run: "get_data.R"
+      run: |
+          source("R/get_data.R")
       shell: Rscript {0}
       
  # Add new files in data folder, commit along with other modified files, push
