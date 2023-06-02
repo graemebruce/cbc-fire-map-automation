@@ -1,0 +1,178 @@
+
+[
+    {
+        "anchor": "middle-center",
+        "class": "",
+        "connectorLine": {
+            "arrowHead": "lines",
+            "enabled": false,
+            "lineLength": 0,
+            "stroke": 1,
+            "targetPadding": 3,
+            "type": "curveRight"
+        },
+        "coordinates": [
+            -65.89429396632659,
+            49.53738618754866
+        ],
+        "icon": {
+            "id": "none",
+            "path": "M0,0"
+        },
+        "id": "m156",
+        "labelStyle": "plain",
+        "locked": false,
+        "markerColor": "#333333",
+        "markerSymbol": "",
+        "markerTextColor": "#333333",
+        "offsetX": 0,
+        "offsetY": 0,
+        "preset": "5-water",
+        "rotate": 0,
+        "scale": 1,
+        "text": {
+            "bold": false,
+            "color": "#355364",
+            "fontSize": 12,
+            "halo": "#a4c7d8",
+            "italic": true,
+            "space": false,
+            "uppercase": false
+        },
+        "textPosition": null,
+        "title": "St. Lawrence River",
+        "tooltip": {
+            "enabled": false,
+            "text": ""
+        },
+        "type": "point",
+        "visibility": {
+            "desktop": true,
+            "mobile": true
+        },
+        "visible": true,
+        "wikidata": null
+    },
+    {
+        "anchor": "top-center",
+        "class": "",
+        "connectorLine": {
+            "arrowHead": "lines",
+            "enabled": false,
+            "lineLength": 0,
+            "stroke": 1,
+            "targetPadding": 3,
+            "type": "curveRight"
+        },
+        "coordinates": [
+            -74.8572812,
+            49.7829998
+        ],
+        "icon": {
+            "height": 700,
+            "horiz-adv-x": 1000,
+            "id": "circle-sm",
+            "path": "M1000 350a500 500 0 0 0-500-500 500 500 0 0 0-500 500 500 500 0 0 0 500 500 500 500 0 0 0 500-500z",
+            "scale": 0.42,
+            "width": 1000
+        },
+        "id": "m155",
+        "labelStyle": "plain",
+        "locked": false,
+        "markerColor": "#4c4c4c",
+        "markerSymbol": "",
+        "markerTextColor": "#333333",
+        "offsetX": 0,
+        "offsetY": 0,
+        "orgLatLng": [
+            -74.8572812,
+            49.7829998
+        ],
+        "preset": "2-major-city",
+        "rotate": 0,
+        "scale": 1,
+        "text": {
+            "bold": false,
+            "color": "#4c4c4c",
+            "fontSize": 14,
+            "halo": "#edebe9",
+            "italic": false,
+            "space": false,
+            "uppercase": false
+        },
+        "textPosition": null,
+        "title": "Chapais",
+        "tooltip": {
+            "enabled": false,
+            "text": ""
+        },
+        "type": "point",
+        "visibility": {
+            "desktop": true,
+            "mobile": true
+        },
+        "visible": false,
+        "wikidata": null
+    },
+    {
+        "anchor": "middle-left",
+        "class": "",
+        "connectorLine": {
+            "arrowHead": "lines",
+            "enabled": false,
+            "lineLength": 0,
+            "stroke": 1,
+            "targetPadding": 3,
+            "type": "curveRight"
+        },
+        "coordinates": [
+            -66.3790642,
+            50.2109579
+        ],
+        "icon": {
+            "height": 700,
+            "horiz-adv-x": 1000,
+            "id": "circle-sm",
+            "path": "M1000 350a500 500 0 0 0-500-500 500 500 0 0 0-500 500 500 500 0 0 0 500 500 500 500 0 0 0 500-500z",
+            "scale": 0.42,
+            "width": 1000
+        },
+        "id": "m154",
+        "labelStyle": "plain",
+        "locked": false,
+        "markerColor": "#4c4c4c",
+        "markerSymbol": "",
+        "markerTextColor": "#333333",
+        "offsetX": 0,
+        "offsetY": 0,
+        "orgLatLng": [
+            -66.3790642,
+            50.2109579
+        ],
+        "preset": "2-major-city",
+        "rotate": 0,
+        "scale": 1,
+        "text": {
+            "bold": false,
+            "color": "#4c4c4c",
+            "fontSize": 14,
+            "halo": "#edebe9",
+            "italic": false,
+            "space": false,
+            "uppercase": false
+        },
+        "textPosition": null,
+        "title": "Sept-\u00celes",
+        "tooltip": {
+            "enabled": false,
+            "text": ""
+        },
+        "type": "point",
+        "visibility": {
+            "desktop": true,
+            "mobile": true
+        },
+        "visible": true,
+        "wikidata": null
+    }
+]
