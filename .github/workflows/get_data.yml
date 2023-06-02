@@ -8,8 +8,10 @@ name: get_data
 on:
   push:
     branches: main
-
-
+defaults:
+  run:
+   working-directory: R    
+   
 jobs: 
   autoscrape:
     # The type of runner that the job will run on
