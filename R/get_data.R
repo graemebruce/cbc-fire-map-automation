@@ -19,7 +19,7 @@ for (i in agencies) {
     dplyr::rename(LATITUDE = lat,
                   LONGITUDE = lon) %>%
     st_as_sf(coords = c("LONGITUDE", "LATITUDE"), crs = 4326)
-  sf::st_write(out_of_control_locations, dsn = paste0("../clean_map_data/locations/",i,"/out_of_control_locations.geojson"), driver="GeoJSON", delete_dsn = T)
+  sf::st_write(out_of_control_locations, dsn = paste0("../clean_map_data/locations/",i,"/out_of_control_locations.geojson"), layer = paste0("../clean_map_data/locations/",i,"/out_of_control_locations.geojson"), driver="GeoJSON", delete_dsn = T)
   
   being_held_locations <- active_fires_raw %>%
     dplyr::filter(agency == i,
