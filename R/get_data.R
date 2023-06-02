@@ -19,8 +19,7 @@ for (i in agencies) {
     dplyr::rename(LATITUDE = lat,
                   LONGITUDE = lon) %>%
     st_as_sf(coords = c("LONGITUDE", "LATITUDE"), crs = 4326)
-  #sf::st_write(out_of_control_locations, dsn = paste0("../clean_map_data/locations/",i,"/out_of_control_locations.geojson"), layer = paste0("../clean_map_data/locations/",i,"/out_of_control_locations.geojson"), driver="GeoJSON", delete_dsn = T)
-   sf::st_write(out_of_control_locations, dsn = paste0("clean_map_data/locations/",i,"/out_of_control_locations.geojson"), layer = paste0("clean_map_data/locations/",i,"/out_of_control_locations.geojson"), driver="GeoJSON", delete_dsn = T)
+  sf::st_write(out_of_control_locations, dsn = paste0("clean_map_data/locations/",i,"/out_of_control_locations.geojson"), layer = paste0("../clean_map_data/locations/",i,"/out_of_control_locations.geojson"), driver="GeoJSON", delete_dsn = T)
 
   being_held_locations <- active_fires_raw %>%
     dplyr::filter(agency == i,
@@ -28,7 +27,7 @@ for (i in agencies) {
     dplyr::rename(LATITUDE = lat,
                   LONGITUDE = lon) %>%
     st_as_sf(coords = c("LONGITUDE", "LATITUDE"), crs = 4326)
-  sf::st_write(being_held_locations, dsn = paste0("../clean_map_data/locations/",i,"/being_held_locations.geojson"), layer = paste0("clean_map_data/locations/",i,"/being_held_locations.geojson"),delete_dsn = T)
+  sf::st_write(being_held_locations, dsn = paste0("clean_map_data/locations/",i,"/being_held_locations.geojson"), layer = paste0("clean_map_data/locations/",i,"/being_held_locations.geojson"),delete_dsn = T)
   
   print(paste0(i, " complete."))
 }
@@ -41,7 +40,7 @@ canada_oc_100_hec <- active_fires_raw %>%
                 LONGITUDE = lon) %>%
   st_as_sf(coords = c("LONGITUDE", "LATITUDE"), crs = 4326)
 
-sf::st_write(canada_oc_100_hec, dsn = paste0("../clean_map_data/locations/canada_oc_100_hec/canada_oc_100_hec.geojson"), layer = paste0("clean_map_data/locations/",i,"/canada_oc_100_hec.geojson"),delete_dsn = T)
+sf::st_write(canada_oc_100_hec, dsn = paste0("clean_map_data/locations/canada_oc_100_hec/canada_oc_100_hec.geojson"), layer = paste0("clean_map_data/locations/",i,"/canada_oc_100_hec.geojson"),delete_dsn = T)
 
 
 ########################Perimeters########################
@@ -49,7 +48,7 @@ sf::st_write(canada_oc_100_hec, dsn = paste0("../clean_map_data/locations/canada
 perimeter_url <- "https://cwfis.cfs.nrcan.gc.ca/geoserver/public/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=public%3Am3_polygons_current&maxFeatures=5000&outputFormat=SHAPE-ZIP"
 perimeter_temp <- tempfile(fileext = ".zip")
 download.file(perimeter_url, perimeter_temp)
-unzip(perimeter_temp,exdir = "../raw_map_data/fire_perims")
+unzip(perimeter_temp,exdir = "raw_map_data/fire_perims")
 
 # perimeters_dbf_url <- "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/perimeters.dbf"
 # download.file(perimeters_dbf_url,"raw_map_data/fire_perims/perimeters.dbf")
@@ -67,7 +66,7 @@ fire_perims <- read_sf("../raw_map_data/fire_perims/m3_polygons_current.shp") %>
 #                                   keep_shapes = FALSE)
 
 fire_perims_simple <- fire_perims
-sf::st_write(fire_perims_simple, dsn = "../clean_map_data/fire_perims/fire_perims_simple.geojson", layer = "clean_map_data/fire_perims/fire_perims_simple.geojson",delete_dsn = T)
+sf::st_write(fire_perims_simple, dsn = "clean_map_data/fire_perims/fire_perims_simple.geojson", layer = "clean_map_data/fire_perims/fire_perims_simple.geojson",delete_dsn = T)
 ########################Smoke########################
 
 #empty the directory first so we don't collect giant shapefiles
@@ -88,17 +87,17 @@ smoke_data_east <- smoke_data %>%
 heavy_smoke <- smoke_data_east %>%
   dplyr::filter(Density=="Heavy") %>%
 slice_max(End, n = 1) #This picks the latest observation if there is more than one
-sf::st_write(heavy_smoke, dsn = "../clean_map_data/smoke/heavy_smoke.geojson", layer = "clean_map_data/smoke/heavy_smoke.geojson",delete_dsn = T)
+sf::st_write(heavy_smoke, dsn = "clean_map_data/smoke/heavy_smoke.geojson", layer = "clean_map_data/smoke/heavy_smoke.geojson",delete_dsn = T)
 
 medium_smoke <- smoke_data_east %>%
   dplyr::filter(Density=="Medium") %>%
   slice_max(End, n = 1) #This picks the latest observation if there is more than one
-sf::st_write(medium_smoke, dsn = "../clean_map_data/smoke/medium_smoke.geojson", layer = "clean_map_data/smoke/medium_smoke.geojson",delete_dsn = T)
+sf::st_write(medium_smoke, dsn = "clean_map_data/smoke/medium_smoke.geojson", layer = "clean_map_data/smoke/medium_smoke.geojson",delete_dsn = T)
 
 light_smoke <- smoke_data_east %>%
   dplyr::filter(Density=="Light") %>%
   slice_max(End, n = 1) #This picks the latest observation if there is more than one
-sf::st_write(light_smoke, dsn = "../clean_map_data/smoke/light_smoke.geojson", layer = "clean_map_data/smoke/light_smoke.geojson",delete_dsn = T)
+sf::st_write(light_smoke, dsn = "clean_map_data/smoke/light_smoke.geojson", layer = "clean_map_data/smoke/light_smoke.geojson",delete_dsn = T)
 
 ########################Danger########################
 
