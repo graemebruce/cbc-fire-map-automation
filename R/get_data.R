@@ -19,7 +19,7 @@ for (i in agencies) {
     dplyr::rename(LATITUDE = lat,
                   LONGITUDE = lon) %>%
     st_as_sf(coords = c("LONGITUDE", "LATITUDE"), crs = 4326)
-  sf::st_write(out_of_control_locations, dsn = paste0("clean_map_data/locations/",i,"/out_of_control_locations.geojson"), layer = paste0("../clean_map_data/locations/",i,"/out_of_control_locations.geojson"), driver="GeoJSON", delete_dsn = T)
+  sf::st_write(out_of_control_locations, dsn = paste0("clean_map_data/locations/",i,"/out_of_control_locations.geojson"), layer = paste0("clean_map_data/locations/",i,"/out_of_control_locations.geojson"), driver="GeoJSON", delete_dsn = T)
 
   being_held_locations <- active_fires_raw %>%
     dplyr::filter(agency == i,
@@ -59,7 +59,7 @@ unzip(perimeter_temp,exdir = "raw_map_data/fire_perims")
 # perimeters_shx_url <- "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/perimeters.shx"
 # download.file(perimeters_shx_url,"raw_map_data/fire_perims/perimeters.shx")
 
-fire_perims <- read_sf("../raw_map_data/fire_perims/m3_polygons_current.shp") %>%
+fire_perims <- read_sf("raw_map_data/fire_perims/m3_polygons_current.shp") %>%
   st_transform(4326)
 
 # fire_perims_simple <- ms_simplify(fire_perims, keep = 0.1,
