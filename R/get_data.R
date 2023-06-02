@@ -75,6 +75,8 @@ file.remove(file.path("raw_map_data/smoke", dir(path="raw_map_data/smoke")))
 yesterday_month = month(Sys.Date() - 1)
 yesterday_day = mday(Sys.Date() - 1)
 
+yesterday_day <- if_else(yesterday_day < 10, paste0("0",as.character(yesterday_day)), as.character(yesterday_day))
+
 smoke_url <- paste0("https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/Shapefile/2023/0",yesterday_month,"/hms_smoke20230",yesterday_month,yesterday_day,".zip")
 smoke_temp <- tempfile(fileext = ".zip")
 download.file(smoke_url, smoke_temp)
