@@ -15,10 +15,9 @@
 { "type": "Feature", "properties": { "agency": "ab", "firename": " PWF-034-2023", "startdate": " 2023-05-05 19:33:00", "hectares": 587.0, "stage_of_control": " BH", "timezone": " MDT" }, "geometry": { "type": "Point", "coordinates": [ -119.479, 56.5452 ] } },
 { "type": "Feature", "properties": { "agency": "ab", "firename": " HWF-055-2023", "startdate": " 2023-05-31 16:15:00", "hectares": 0.01, "stage_of_control": " BH", "timezone": " MDT" }, "geometry": { "type": "Point", "coordinates": [ -116.506, 58.0172 ] } },
 { "type": "Feature", "properties": { "agency": "ab", "firename": " LWF-138-2023", "startdate": " 2023-05-29 21:53:00", "hectares": 4130.0, "stage_of_control": " BH", "timezone": " MDT" }, "geometry": { "type": "Point", "coordinates": [ -110.357, 55.6255 ] } },
-{ "type": "Feature", "properties": { "agency": "ab", "firename": " MWF-026-2023", "startdate": " 2023-05-28 19:05:00", "hectares": 1240.0, "stage_of_control": " BH", "timezone": " MDT" }, "geometry": { "type": "Point", "coordinates": [ -111.054, 57.8825 ] } },
 { "type": "Feature", "properties": { "agency": "ab", "firename": " MWF-024-2023", "startdate": " 2023-05-28 18:05:00", "hectares": 23767.0, "stage_of_control": " BH", "timezone": " MDT" }, "geometry": { "type": "Point", "coordinates": [ -110.647, 57.7123 ] } },
 { "type": "Feature", "properties": { "agency": "ab", "firename": " MWF-021-2023", "startdate": " 2023-05-28 01:40:00", "hectares": 9764.0, "stage_of_control": " BH", "timezone": " MDT" }, "geometry": { "type": "Point", "coordinates": [ -113.296, 57.6939 ] } },
 { "type": "Feature", "properties": { "agency": "ab", "firename": " MWF-023-2023", "startdate": " 2023-05-28 17:15:00", "hectares": 26110.0, "stage_of_control": " BH", "timezone": " MDT" }, "geometry": { "type": "Point", "coordinates": [ -113.215, 57.9763 ] } },
-{ "type": "Feature", "properties": { "agency": "ab", "firename": " MWF-028-2023", "startdate": " 2023-06-01 19:30:00", "hectares": 4.36, "stage_of_control": " BH", "timezone": " MDT" }, "geometry": { "type": "Point", "coordinates": [ -112.474, 57.0847 ] } }
+{ "type": "Feature", "properties": { "agency": "ab", "firename": " MWF-026-2023", "startdate": " 2023-05-28 19:05:00", "hectares": 1756.0, "stage_of_control": " BH", "timezone": " MDT" }, "geometry": { "type": "Point", "coordinates": [ -111.054, 57.8825 ] } }
 ]
 }
