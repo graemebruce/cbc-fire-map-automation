@@ -17,7 +17,6 @@
 { "type": "Feature", "properties": { "agency": "pc", "firename": " 2023WB2", "startdate": " 2023-05-28 20:27:16", "hectares": 5000.0, "stage_of_control": " OC", "timezone": " MDT" }, "geometry": { "type": "Point", "coordinates": [ -112.452, 59.3952 ] } },
 { "type": "Feature", "properties": { "agency": "pc", "firename": " 2023WB6", "startdate": " 2023-05-28 06:19:35", "hectares": 0.2, "stage_of_control": " OC", "timezone": " MDT" }, "geometry": { "type": "Point", "coordinates": [ -112.071, 59.7478 ] } },
 { "type": "Feature", "properties": { "agency": "pc", "firename": " 2023WB5", "startdate": " 2023-05-28 06:17:28", "hectares": 0.2, "stage_of_control": " OC", "timezone": " MDT" }, "geometry": { "type": "Point", "coordinates": [ -112.058, 59.7391 ] } },
-{ "type": "Feature", "properties": { "agency": "pc", "firename": " 2023WB1", "startdate": " 2023-05-16 22:51:58", "hectares": 15511.0, "stage_of_control": " OC", "timezone": " MDT" }, "geometry": { "type": "Point", "coordinates": [ -114.002, 58.6371 ] } },
-{ "type": "Feature", "properties": { "agency": "pc", "firename": " 2023JA5", "startdate": " 2023-06-04 06:17:37", "hectares": 1.7, "stage_of_control": " OC", "timezone": " MDT" }, "geometry": { "type": "Point", "coordinates": [ -118.034, 52.7986 ] } }
+{ "type": "Feature", "properties": { "agency": "pc", "firename": " 2023WB1", "startdate": " 2023-05-16 22:51:58", "hectares": 15511.0, "stage_of_control": " OC", "timezone": " MDT" }, "geometry": { "type": "Point", "coordinates": [ -114.002, 58.6371 ] } }
 ]
 }

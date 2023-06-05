@@ -4,15 +4,6 @@
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
 { "type": "Feature", "properties": { "agency": "nb", "firename": " 61902", "startdate": " 2023-05-29 02:27:39", "hectares": 40.0, "stage_of_control": " BH", "timezone": " ADT" }, "geometry": { "type": "Point", "coordinates": [ -65.9153, 45.6278 ] } },
-{ "type": "Feature", "properties": { "agency": "nb", "firename": " 61982", "startdate": " 2023-05-30 07:06:34", "hectares": 0.1, "stage_of_control": " BH", "timezone": " ADT" }, "geometry": { "type": "Point", "coordinates": [ -67.4673, 46.4134 ] } },
-{ "type": "Feature", "properties": { "agency": "nb", "firename": " 61886", "startdate": " 2023-05-28 22:27:53", "hectares": 32.0, "stage_of_control": " BH", "timezone": " ADT" }, "geometry": { "type": "Point", "coordinates": [ -65.9912, 46.1258 ] } },
-{ "type": "Feature", "properties": { "agency": "nb", "firename": " 62102", "startdate": " 2023-06-01 14:49:27", "hectares": 0.1, "stage_of_control": " BH", "timezone": " ADT" }, "geometry": { "type": "Point", "coordinates": [ -64.6287, 45.9012 ] } },
-{ "type": "Feature", "properties": { "agency": "nb", "firename": " 62123", "startdate": " 2023-06-01 17:47:33", "hectares": 2.0, "stage_of_control": " BH", "timezone": " ADT" }, "geometry": { "type": "Point", "coordinates": [ -65.3221, 46.3747 ] } },
-{ "type": "Feature", "properties": { "agency": "nb", "firename": " 62062", "startdate": " 2023-05-31 17:38:31", "hectares": 4.0, "stage_of_control": " BH", "timezone": " ADT" }, "geometry": { "type": "Point", "coordinates": [ -64.9574, 46.5316 ] } },
-{ "type": "Feature", "properties": { "agency": "nb", "firename": " 62202", "startdate": " 2023-06-02 16:06:08", "hectares": 0.1, "stage_of_control": " BH", "timezone": " ADT" }, "geometry": { "type": "Point", "coordinates": [ -67.7471, 46.5159 ] } },
-{ "type": "Feature", "properties": { "agency": "nb", "firename": " 62126", "startdate": " 2023-06-01 19:09:05", "hectares": 1.0, "stage_of_control": " BH", "timezone": " ADT" }, "geometry": { "type": "Point", "coordinates": [ -65.1525, 46.429 ] } },
-{ "type": "Feature", "properties": { "agency": "nb", "firename": " 61887", "startdate": " 2023-05-28 22:47:20", "hectares": 32.0, "stage_of_control": " BH", "timezone": " ADT" }, "geometry": { "type": "Point", "coordinates": [ -66.5871, 45.6622 ] } },
-{ "type": "Feature", "properties": { "agency": "nb", "firename": " 61884", "startdate": " 2023-05-28 20:27:06", "hectares": 540.0, "stage_of_control": " BH", "timezone": " ADT" }, "geometry": { "type": "Point", "coordinates": [ -66.9748, 45.1808 ] } },
-{ "type": "Feature", "properties": { "agency": "nb", "firename": " 62143", "startdate": " 2023-06-01 21:53:34", "hectares": 0.5, "stage_of_control": " BH", "timezone": " ADT" }, "geometry": { "type": "Point", "coordinates": [ -66.5952, 46.7765 ] } }
+{ "type": "Feature", "properties": { "agency": "nb", "firename": " 62062", "startdate": " 2023-05-31 17:38:31", "hectares": 4.0, "stage_of_control": " BH", "timezone": " ADT" }, "geometry": { "type": "Point", "coordinates": [ -64.9574, 46.5316 ] } }
 ]
 }
