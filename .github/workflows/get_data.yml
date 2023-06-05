@@ -3,7 +3,7 @@ name: get_data
 #  Controls when the action will run.
 on:
   schedule:
-    - cron:  '10 12 * * *'
+    - cron:  '00 13 * * *'
 
 #on:
 #   push:
