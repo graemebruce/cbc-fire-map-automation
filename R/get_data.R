@@ -72,7 +72,7 @@ sf::st_write(fire_perims_simple, dsn = "clean_map_data/fire_perims/fire_perims_s
 #empty the directory first so we don't collect giant shapefiles
 file.remove(file.path("raw_map_data/smoke", dir(path="raw_map_data/smoke")))
 
-yesterday_month = month(Sys.Date())
+yesterday_month = month(Sys.Date()) 
 yesterday_day = mday(Sys.Date())
 
 yesterday_day <- if_else(yesterday_day < 10, paste0("0",as.character(yesterday_day)), as.character(yesterday_day))
