@@ -33,14 +33,14 @@ for (i in agencies) {
 }
 
 #Create Canadawide dataset with just out-of-control fires over 100 hectares
-canada_oc_100_hec <- active_fires_raw %>%
-  dplyr::filter(stage_of_control ==" OC",
+#canada_oc_100_hec <- active_fires_raw %>%
+#  dplyr::filter(stage_of_control ==" OC",
                 hectares >200) %>%
-  dplyr::rename(LATITUDE = lat,
+#  dplyr::rename(LATITUDE = lat,
                 LONGITUDE = lon) %>%
-  st_as_sf(coords = c("LONGITUDE", "LATITUDE"), crs = 4326)
+#  st_as_sf(coords = c("LONGITUDE", "LATITUDE"), crs = 4326)
 
-sf::st_write(canada_oc_100_hec, dsn = paste0("clean_map_data/locations/canada_oc_100_hec/canada_oc_100_hec.geojson"), layer = paste0("clean_map_data/locations/",i,"/canada_oc_100_hec.geojson"),delete_dsn = T)
+#sf::st_write(canada_oc_100_hec, dsn = paste0("clean_map_data/locations/canada_oc_100_hec/canada_oc_100_hec.geojson"), layer = paste0("clean_map_data/locations/",i,"/canada_oc_100_hec.geojson"),delete_dsn = T)
 
 
 ########################Perimeters########################
