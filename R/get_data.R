@@ -35,7 +35,7 @@ for (i in agencies) {
 #Create Canadawide dataset with just out-of-control fires over 100 hectares
 canada_oc_100_hec <- active_fires_raw %>%
   dplyr::filter(stage_of_control ==" OC",
-                hectares >100) %>%
+                hectares >200) %>%
   dplyr::rename(LATITUDE = lat,
                 LONGITUDE = lon) %>%
   st_as_sf(coords = c("LONGITUDE", "LATITUDE"), crs = 4326)
