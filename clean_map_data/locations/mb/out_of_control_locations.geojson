@@ -1,12 +1,11 @@
 {
 "type": "FeatureCollection",
-"name": "clean_map_data\/locations\/mb\/out_of_control_locations.geojson",
+"name": "..\/clean_map_data\/locations\/mb\/out_of_control_locations.geojson",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "agency": "mb", "firename": " EA030", "startdate": " 2023-06-03 05:00:00", "hectares": 2.0, "stage_of_control": " OC", "timezone": " CDT" }, "geometry": { "type": "Point", "coordinates": [ -96.1906, 51.5578 ] } },
 { "type": "Feature", "properties": { "agency": "mb", "firename": " EA034", "startdate": " 2023-06-03 05:00:00", "hectares": 5.0, "stage_of_control": " OC", "timezone": " CDT" }, "geometry": { "type": "Point", "coordinates": [ -96.5647, 52.8786 ] } },
-{ "type": "Feature", "properties": { "agency": "mb", "firename": " EA035", "startdate": " 2023-06-03 05:00:00", "hectares": 0.3, "stage_of_control": " OC", "timezone": " CDT" }, "geometry": { "type": "Point", "coordinates": [ -96.7306, 52.1258 ] } },
-{ "type": "Feature", "properties": { "agency": "mb", "firename": " EA033", "startdate": " 2023-06-03 05:00:00", "hectares": 3.0, "stage_of_control": " OC", "timezone": " CDT" }, "geometry": { "type": "Point", "coordinates": [ -96.6208, 52.1478 ] } },
-{ "type": "Feature", "properties": { "agency": "mb", "firename": " EA031", "startdate": " 2023-06-03 05:00:00", "hectares": 0.1, "stage_of_control": " OC", "timezone": " CDT" }, "geometry": { "type": "Point", "coordinates": [ -96.52, 51.9967 ] } }
+{ "type": "Feature", "properties": { "agency": "mb", "firename": " EA043", "startdate": " 2023-06-05 05:00:00", "hectares": 0.5, "stage_of_control": " OC", "timezone": " CDT" }, "geometry": { "type": "Point", "coordinates": [ -95.6989, 52.6431 ] } },
+{ "type": "Feature", "properties": { "agency": "mb", "firename": " NO013", "startdate": " 2023-06-05 05:00:00", "hectares": 30.0, "stage_of_control": " OC", "timezone": " CDT" }, "geometry": { "type": "Point", "coordinates": [ -95.325, 53.6725 ] } },
+{ "type": "Feature", "properties": { "agency": "mb", "firename": " EA041", "startdate": " 2023-06-04 05:00:00", "hectares": 180.0, "stage_of_control": " OC", "timezone": " CDT" }, "geometry": { "type": "Point", "coordinates": [ -95.5778, 52.485 ] } }
 ]
 }
