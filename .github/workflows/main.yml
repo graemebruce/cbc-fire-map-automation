@@ -21,6 +21,9 @@ jobs:
 
     # Set-up R
     - name: Install packages
+      env:
+        REPO_KEY: ${{secrets.GITHUB_TOKEN}}
+        username: github-actions
       run: |
         R -e 'install.packages("sf")'
         R -e 'install.packages("httr")'
