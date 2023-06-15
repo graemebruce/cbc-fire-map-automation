@@ -1,5 +1,6 @@
 library(tidyverse)
 library(dplyr)
+library(devtools)
 active_fires_raw <- read.csv("https://cwfis.cfs.nrcan.gc.ca/downloads/activefires/activefires.csv")
 devtools::install_github("munichrocker/DatawRappr")
 library(DatawRappr)
