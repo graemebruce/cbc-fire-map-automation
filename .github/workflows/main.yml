@@ -29,6 +29,8 @@ jobs:
         R -e 'install.packages("rmapshaper")'
         R -e 'install.packages("lubridate")'
         R -e 'install.packages("dplyr")'
+        R -e 'install.packages("devtools")'
+        
         
     # Run R script
     - name: Scrape
